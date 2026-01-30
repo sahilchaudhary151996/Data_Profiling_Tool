@@ -1,0 +1,1342 @@
+Type of Data,REF_COL,Origin,Variable,Rule Id,Weight,IsCritical,Dimension,DepTable,DepVar,Condition,Criterion,Flag,Source,Data_Domain
+acs_casualty,Claim Status,acs_casualty,claim_status,443,0,1,Validity,null,null,['in'],"[['open','reopened','closed','unknown']]",null,ACS,Claim
+acs_casualty,Claim Movement Date,acs_casualty,claim_movement_date,444,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,ACS,Claim
+acs_casualty,Claim Loss Date,acs_casualty,claim_loss_date,445,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_casualty,Claim Notification Date,acs_casualty,claim_notification_date,446,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_casualty,Claim Reopened Date,acs_casualty,claim_reopened_date,447,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_casualty,Claim Settled Date,acs_casualty,claim_settled_date,448,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_commercial_property,Claim Status,acs_commercial_property,claim_status,449,0,1,Validity,null,null,['in'],"[['open','reopened','closed','unknown']]",null,ACS,Claim
+acs_commercial_property,Claim Movement Date,acs_commercial_property,claim_movement_date,450,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,ACS,Claim
+acs_commercial_property,Claim Loss Date,acs_commercial_property,claim_loss_date,451,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_commercial_property,Claim Notification Date,acs_commercial_property,claim_notification_date,452,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_commercial_property,Claim Reopened Date,acs_commercial_property,claim_reopened_date,453,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_commercial_property,Claim Settled Date,acs_commercial_property,claim_settled_date,454,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_motor_trade,Claim Status,acs_motor_trade,claim_status,455,0,1,Validity,null,null,['in'],"[['open','reopened','closed','unknown']]",null,ACS,Claim
+acs_motor_trade,Claim Movement Date,acs_motor_trade,claim_movement_date,456,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,ACS,Claim
+acs_motor_trade,Claim Loss Date,acs_motor_trade,claim_loss_date,457,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_motor_trade,Claim Notification Date,acs_motor_trade,claim_notification_date,458,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_motor_trade,Claim Reopened Date,acs_motor_trade,claim_reopened_date,459,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_motor_trade,Claim Settled Date,acs_motor_trade,claim_settled_date,460,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_farm,Claim Status,acs_farm,claim_status,461,0,1,Validity,null,null,['in'],"[['open','reopened','closed','unknown']]",null,ACS,Claim
+acs_farm,Claim Movement Date,acs_farm,claim_movement_date,462,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,ACS,Claim
+acs_farm,Claim Loss Date,acs_farm,claim_loss_date,463,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_farm,Claim Notification Date,acs_farm,claim_notification_date,464,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_farm,Claim Reopened Date,acs_farm,claim_reopened_date,465,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_farm,Claim Settled Date,acs_farm,claim_settled_date,466,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_motor,Claim Status,acs_motor,claim_status,467,0,1,Validity,null,null,['in'],"[['open','reopened','closed','unknown']]",null,ACS,Claim
+acs_motor,Claim Movement Date,acs_motor,claim_movement_date,468,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,ACS,Claim
+acs_motor,Claim Loss Date,acs_motor,claim_loss_date,469,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_motor,Claim Notification Date,acs_motor,claim_notification_date,470,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_motor,Claim Reopened Date,acs_motor,claim_reopened_date,471,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_motor,Claim Settled Date,acs_motor,claim_settled_date,472,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ACS,Claim
+acs_casualty,Claim ID,acs_casualty,claim_id,479,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Number,acs_casualty,claim_number,480,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Status,acs_casualty,claim_status,481,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Movement Date,acs_casualty,claim_movement_date,482,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Loss Date,acs_casualty,claim_loss_date,483,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Notification Date,acs_casualty,claim_notification_date,484,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Reopened Date,acs_casualty,claim_reopened_date,485,0,3,Completeness,null,['claim_status'],['=='],['reopened'],null,ACS,Claim
+acs_casualty,Claim Settled Date,acs_casualty,claim_settled_date,486,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_casualty,Claim Estimate Amount,acs_casualty,claim_estimate_amount,487,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_casualty,Claim Estimate Recovery,acs_casualty,claim_estimate_recovery,488,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_casualty,Claim Recovered Amount,acs_casualty,claim_recovered_amount,489,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_casualty,Claim Settlement Amount,acs_casualty,claim_settlement_amount,490,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_casualty,Claim Incurred Amount,acs_casualty,claim_incurred_amount,491,0,3,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_casualty,Exposure ID,acs_casualty,exposure_id,492,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Source System Description,acs_casualty,source_system_description,493,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Insurance Type Description,acs_casualty,insurance_type_description,494,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Special Investigation Unit Status ID,acs_casualty,siu_status_id,495,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Peril Code,acs_casualty,peril_code,496,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Peril Description,acs_casualty,claim_peril_description,497,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Cause Code,acs_casualty,cause_code,498,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Cause Description,acs_casualty,claim_cause_description,499,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Notified By,acs_casualty,claim_notified_by,500,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Liability Decision Description,acs_casualty,claim_liability_decision_description,501,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Settlement Reason Description,acs_casualty,claim_settlement_reason_description,502,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_casualty,Howreported,acs_casualty,howreported,503,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Handler Team,acs_casualty,handler_team,504,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Handler Team Description,acs_casualty,handler_team_description,505,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Handler,acs_casualty,handler,506,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Cover Type,acs_casualty,cover_type,507,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Cover Type Description,acs_casualty,cover_type_description,508,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Agency Number,acs_casualty,agency_number,509,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Policy Number,acs_casualty,policy_number,510,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Product Class,acs_casualty,product_class,511,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_casualty,Claim Month,acs_casualty,claim_month,512,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim ID,acs_commercial_property,claim_id,513,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Number,acs_commercial_property,claim_number,514,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Status,acs_commercial_property,claim_status,515,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Movement Date,acs_commercial_property,claim_movement_date,516,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Loss Date,acs_commercial_property,claim_loss_date,517,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Notification Date,acs_commercial_property,claim_notification_date,518,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Reopened Date,acs_commercial_property,claim_reopened_date,519,0,3,Completeness,null,['claim_status'],['=='],['reopened'],null,ACS,Claim
+acs_commercial_property,Claim Settled Date,acs_commercial_property,claim_settled_date,520,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_commercial_property,Claim Estimate Amount,acs_commercial_property,claim_estimate_amount,521,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Estimate Recovery,acs_commercial_property,claim_estimate_recovery,522,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Recovered Amount,acs_commercial_property,claim_recovered_amount,523,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Settlement Amount,acs_commercial_property,claim_settlement_amount,524,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Incurred Amount,acs_commercial_property,claim_incurred_amount,525,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Exposure ID,acs_commercial_property,exposure_id,526,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Source System Description,acs_commercial_property,source_system_description,527,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Insurance Type Description,acs_commercial_property,insurance_type_description,528,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Special Investigation Unit Status ID,acs_commercial_property,siu_status_id,529,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Peril Code,acs_commercial_property,peril_code,530,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Peril Description,acs_commercial_property,claim_peril_description,531,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Cause Code,acs_commercial_property,cause_code,532,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Cause Description,acs_commercial_property,claim_cause_description,533,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Notified By,acs_commercial_property,claim_notified_by,534,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Liability Decision Description,acs_commercial_property,claim_liability_decision_description,535,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Settlement Reason Description,acs_commercial_property,claim_settlement_reason_description,536,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_commercial_property,Howreported,acs_commercial_property,howreported,537,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Handler Team,acs_commercial_property,handler_team,538,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Handler Team Description,acs_commercial_property,handler_team_description,539,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Handler,acs_commercial_property,handler,540,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Cover Type,acs_commercial_property,cover_type,541,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Cover Type Description,acs_commercial_property,cover_type_description,542,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Agency Number,acs_commercial_property,agency_number,543,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Policy Number,acs_commercial_property,policy_number,544,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Product Class,acs_commercial_property,product_class,545,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Loss Of Location,acs_commercial_property,loss_of_location,546,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_commercial_property,Claim Month,acs_commercial_property,claim_month,547,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim ID,acs_motor_trade,claim_id,548,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Number,acs_motor_trade,claim_number,549,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Status,acs_motor_trade,claim_status,550,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Movement Date,acs_motor_trade,claim_movement_date,551,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Loss Date,acs_motor_trade,claim_loss_date,552,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Notification Date,acs_motor_trade,claim_notification_date,553,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Reopened Date,acs_motor_trade,claim_reopened_date,554,0,3,Completeness,null,['claim_status'],['=='],['reopened'],null,ACS,Claim
+acs_motor_trade,Claim Settled Date,acs_motor_trade,claim_settled_date,555,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_motor_trade,Claim Estimate Amount,acs_motor_trade,claim_estimate_amount,556,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Estimate Recovery,acs_motor_trade,claim_estimate_recovery,557,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Recovered Amount,acs_motor_trade,claim_recovered_amount,558,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Settlement Amount,acs_motor_trade,claim_settlement_amount,559,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Incurred Amount,acs_motor_trade,claim_incurred_amount,560,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Exposure ID,acs_motor_trade,exposure_id,561,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Source System Description,acs_motor_trade,source_system_description,562,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Insurance Type Description,acs_motor_trade,insurance_type_description,563,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Special Investigation Unit Status ID,acs_motor_trade,siu_status_id,564,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Peril Code,acs_motor_trade,peril_code,565,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Peril Description,acs_motor_trade,claim_peril_description,566,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Cause Code,acs_motor_trade,cause_code,567,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Cause Description,acs_motor_trade,claim_cause_description,568,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Notified By,acs_motor_trade,claim_notified_by,569,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Liability Decision Description,acs_motor_trade,claim_liability_decision_description,570,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Settlement Reason Description,acs_motor_trade,claim_settlement_reason_description,571,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_motor_trade,Howreported,acs_motor_trade,howreported,572,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Handler Team,acs_motor_trade,handler_team,573,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Handler Team Description,acs_motor_trade,handler_team_description,574,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Handler,acs_motor_trade,handler,575,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Cover Type,acs_motor_trade,cover_type,576,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Cover Type Description,acs_motor_trade,cover_type_description,577,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Agency Number,acs_motor_trade,agency_number,578,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Policy Number,acs_motor_trade,policy_number,579,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Product Class,acs_motor_trade,product_class,580,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Loss Of Location,acs_motor_trade,loss_of_location,581,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor_trade,Claim Month,acs_motor_trade,claim_month,582,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim ID,acs_farm,claim_id,583,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Number,acs_farm,claim_number,584,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Status,acs_farm,claim_status,585,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Movement Date,acs_farm,claim_movement_date,586,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Loss Date,acs_farm,claim_loss_date,587,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Notification Date,acs_farm,claim_notification_date,588,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Reopened Date,acs_farm,claim_reopened_date,589,0,3,Completeness,null,['claim_status'],['=='],['reopened'],null,ACS,Claim
+acs_farm,Claim Settled Date,acs_farm,claim_settled_date,590,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_farm,Claim Estimate Amount,acs_farm,claim_estimate_amount,591,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Estimate Recovery,acs_farm,claim_estimate_recovery,592,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Recovered Amount,acs_farm,claim_recovered_amount,593,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Settlement Amount,acs_farm,claim_settlement_amount,594,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Incurred Amount,acs_farm,claim_incurred_amount,595,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Exposure ID,acs_farm,exposure_id,596,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Source System Description,acs_farm,source_system_description,597,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Insurance Type Description,acs_farm,insurance_type_description,598,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Special Investigation Unit Status ID,acs_farm,siu_status_id,599,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Peril Code,acs_farm,peril_code,600,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Peril Description,acs_farm,claim_peril_description,601,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Cause Code,acs_farm,cause_code,602,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Cause Description,acs_farm,claim_cause_description,603,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Notified By,acs_farm,claim_notified_by,604,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Liability Decision Description,acs_farm,claim_liability_decision_description,605,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Settlement Reason Description,acs_farm,claim_settlement_reason_description,606,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_farm,Howreported,acs_farm,howreported,607,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Handler Team,acs_farm,handler_team,608,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Handler Team Description,acs_farm,handler_team_description,609,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Handler,acs_farm,handler,610,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Cover Type,acs_farm,cover_type,611,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Cover Type Description,acs_farm,cover_type_description,612,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Agency Number,acs_farm,agency_number,613,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Policy Number,acs_farm,policy_number,614,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Product Class,acs_farm,product_class,615,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Loss Of Location,acs_farm,loss_of_location,616,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_farm,Claim Month,acs_farm,claim_month,617,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim ID,acs_motor,claim_id,618,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Number,acs_motor,claim_number,619,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Status,acs_motor,claim_status,620,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Movement Date,acs_motor,claim_movement_date,621,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Loss Date,acs_motor,claim_loss_date,622,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Notification Date,acs_motor,claim_notification_date,623,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Reopened Date,acs_motor,claim_reopened_date,624,0,3,Completeness,null,['claim_status'],['=='],['reopened'],null,ACS,Claim
+acs_motor,Claim Settled Date,acs_motor,claim_settled_date,625,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_motor,Claim Estimate Amount,acs_motor,claim_estimate_amount,626,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Estimate Recovery,acs_motor,claim_estimate_recovery,627,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Recovered Amount,acs_motor,claim_recovered_amount,628,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Settlement Amount,acs_motor,claim_settlement_amount,629,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Incurred Amount,acs_motor,claim_incurred_amount,630,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Exposure ID,acs_motor,exposure_id,631,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Source System Description,acs_motor,source_system_description,632,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Insurance Type Description,acs_motor,insurance_type_description,633,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Special Investigation Unit Status ID,acs_motor,siu_status_id,634,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Peril Code,acs_motor,peril_code,635,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Peril Description,acs_motor,claim_peril_description,636,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Cause Code,acs_motor,cause_code,637,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Cause Description,acs_motor,claim_cause_description,638,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Notified By,acs_motor,claim_notified_by,639,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Liability Decision Description,acs_motor,claim_liability_decision_description,640,0,1,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Settlement Reason Description,acs_motor,claim_settlement_reason_description,641,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,ACS,Claim
+acs_motor,Howreported,acs_motor,howreported,642,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Handler Team,acs_motor,handler_team,643,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Handler Team Description,acs_motor,handler_team_description,644,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Handler,acs_motor,handler,645,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Cover Type,acs_motor,cover_type,646,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Cover Type Description,acs_motor,cover_type_description,647,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Agency Number,acs_motor,agency_number,648,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Policy Number,acs_motor,policy_number,649,0,2,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Product Class,acs_motor,product_class,650,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Loss Of Location,acs_motor,loss_of_location,651,0,3,Completeness,null,null,null,null,null,ACS,Claim
+acs_motor,Claim Month,acs_motor,claim_month,652,0,3,Completeness,null,null,null,null,null,ACS,Claim
+actpolicydetailed,Product Key,actpolicydetailed,product_key,1,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Policy Agent Key,actpolicydetailed,policy_agent_key,2,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Business Event Key,actpolicydetailed,business_event_key,3,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Policy Status Key,actpolicydetailed,policy_status_key,4,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Insurer Policy Number,actpolicydetailed,insurer_policy_no,10,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Inception Date Key,actpolicydetailed,inception_date_key,11,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Accepted Date Key,actpolicydetailed,accepted_date_key,12,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Renewal Date Key,actpolicydetailed,renewal_date_key,13,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Effective Date Key,actpolicydetailed,effective_date_key,14,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Basic Premium,actpolicydetailed,basic_premium,15,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Commission Income,actpolicydetailed,commission_income,16,1,2,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Ipt Amount,actpolicydetailed,ipt_amount,17,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Net Premium,actpolicydetailed,net_premium,18,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Version Reference,actpolicydetailed,version_ref,19,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Expiry Date Key,actpolicydetailed,term_end_date_key,20,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Inception Date Key,actpolicydetailed,inception_date_key,23,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actpolicydetailed,Accepted Date Key,actpolicydetailed,accepted_date_key,24,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actpolicydetailed,Renewal Date Key,actpolicydetailed,renewal_date_key,25,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actpolicydetailed,Effective Date Key,actpolicydetailed,effective_date_key,26,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actpolicydetailed,Expiry Date Key,actpolicydetailed,term_end_date_key,27,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actpolicydetailed,Inception Date Key,actpolicydetailed,inception_date_key,28,1,2,Timeliness,null,null,['<='],['actpolicydetailed:term_end_date_key'],null,Acturis,Policy
+actpolicydetailed,Accepted Date Key,actpolicydetailed,accepted_date_key,29,1,2,Timeliness,null,null,['<='],['actpolicydetailed:term_end_date_key'],null,Acturis,Policy
+actpolicydetailed,Renewal Date Key,actpolicydetailed,renewal_date_key,30,1,3,Timeliness,null,null,['=='],['actpolicydetailed:term_end_date_key+1'],null,Acturis,Policy
+actpolicydetailed,Effective Date Key,actpolicydetailed,effective_date_key,31,1,3,Timeliness,null,null,['<='],['actpolicydetailed:term_end_date_key'],null,Acturis,Policy
+actpolicydetailed,Expiry Date Key,actpolicydetailed,term_end_date_key,32,1,3,Timeliness,null,null,['=='],['actpolicydetailed:renewal_date_key-1'],null,Acturis,Policy
+actactivepolicy,Insurer Policy Number,actactivepolicy,insurer_policy_no,33,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Inception Date Key,actactivepolicy,inception_date_key,34,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Acceoted Date Key,actactivepolicy,accepted_date_key,35,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Renewal Date Key,actactivepolicy,renewal_date_key,36,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Effective Date Key,actactivepolicy,effective_date_key,37,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Expiry Date Key,actactivepolicy,term_end_date_key,38,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Business Event Description,actactivepolicy,business_event_desc,39,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Policy Status Description,actactivepolicy,policy_status_desc,40,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Product Name,actactivepolicy,product_name,41,0,1,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Policy Band Effective NBRN,actactivepolicy,policy_band_effective_nbrn,42,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Policy Discounted Premium,actactivepolicy,policy_discounted_premium,43,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Policy Commission Income,actactivepolicy,policy_commission_income,44,1,2,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Policy IPT Amount ,actactivepolicy,policy_ipt_amount,45,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Insurer Policy Number,actactivepolicy,insurer_policy_no,46,1,1,Uniqueness,null,null,null,null,null,Acturis,Policy
+actactivepolicy,Inception Date Key,actactivepolicy,inception_date_key,47,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actactivepolicy,Acceoted Date Key,actactivepolicy,accepted_date_key,48,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actactivepolicy,Renewal Date Key,actactivepolicy,renewal_date_key,49,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actactivepolicy,Effective Date Key,actactivepolicy,effective_date_key,50,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actactivepolicy,Expiry Date Key,actactivepolicy,term_end_date_key,51,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actactivepolicy,Inception Date Key,actactivepolicy,inception_date_key,52,1,2,Timeliness,null,null,['<='],['actactivepolicy:term_end_date_key'],null,Acturis,Policy
+actactivepolicy,Acceoted Date Key,actactivepolicy,accepted_date_key,53,1,2,Timeliness,null,null,['<='],['actactivepolicy:term_end_date_key'],null,Acturis,Policy
+actactivepolicy,Renewal Date Key,actactivepolicy,renewal_date_key,54,1,3,Timeliness,null,null,['=='],['actactivepolicy:term_end_date_key+1'],null,Acturis,Policy
+actactivepolicy,Effective Date Key,actactivepolicy,effective_date_key,55,1,3,Timeliness,null,null,['<='],['actactivepolicy:term_end_date_key'],null,Acturis,Policy
+actactivepolicy,Expiry Date Key,actactivepolicy,term_end_date_key,56,1,3,Timeliness,null,null,['=='],['actactivepolicy:renewal_date_key-1'],null,Acturis,Policy
+actmastertransaction,Insurer Policy Number ,actmastertransaction,insurer_policy_no,57,1,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Policy Key,actmastertransaction,policy_key,58,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Inception Date Key,actmastertransaction,inception_date_key,59,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Accepted Date Key,actmastertransaction,accepted_date_key,60,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Renewal Date Key,actmastertransaction,renewal_date_key,61,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Effective Date Key,actmastertransaction,effective_date_key,62,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Business Event Key,actmastertransaction,business_event_key,63,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Policy Status Key,actmastertransaction,policy_status_key,64,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Product Key,actmastertransaction,product_key,65,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Policy Agent Key,actmastertransaction,policy_agent_key,66,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Basic Premium,actmastertransaction,basic_premium,67,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Commission Income,actmastertransaction,commission_income,68,1,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,IPT Amount,actmastertransaction,ipt_amount,69,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Net Premium,actmastertransaction,net_premium,70,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Version Reference,actmastertransaction,version_ref,71,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Policy Status Description,actmastertransaction,policy_status_desc,72,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Business Event Description,actmastertransaction,business_event_desc,73,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Product Name,actmastertransaction,product_name,74,0,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Policy Agent Name,actmastertransaction,policy_agent_name,75,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Expiry Date Key,actmastertransaction,term_end_date_key,76,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Inception Date Key,actmastertransaction,inception_date_key,77,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmastertransaction,Accepted Date Key,actmastertransaction,accepted_date_key,78,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmastertransaction,Renewal Date Key,actmastertransaction,renewal_date_key,79,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmastertransaction,Effective Date Key,actmastertransaction,effective_date_key,80,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmastertransaction,Expiry Date Key,actmastertransaction,term_end_date_key,81,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmastertransaction,Inception Date Key,actmastertransaction,inception_date_key,82,1,2,Timeliness,null,null,['<='],['actmastertransaction:term_end_date_key'],null,Acturis,Policy
+actmastertransaction,Accepted Date Key,actmastertransaction,accepted_date_key,83,1,2,Timeliness,null,null,['<='],['actmastertransaction:term_end_date_key'],null,Acturis,Policy
+actmastertransaction,Renewal Date Key,actmastertransaction,renewal_date_key,84,1,3,Timeliness,null,null,['=='],['actmastertransaction:term_end_date_key+1'],null,Acturis,Policy
+actmastertransaction,Effective Date Key,actmastertransaction,effective_date_key,85,1,3,Timeliness,null,null,['<='],['actmastertransaction:term_end_date_key'],null,Acturis,Policy
+actmastertransaction,Expiry Date Key,actmastertransaction,term_end_date_key,86,1,3,Timeliness,null,null,['=='],['actmastertransaction:renewal_date_key-1'],null,Acturis,Policy
+actmasterunique,Insurer Policy Number,actmasterunique,insurer_policy_no,87,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Inception Date Key,actmasterunique,inception_date_key,88,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Accepted Date Key,actmasterunique,accepted_date_key,89,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Renewal Date Key,actmasterunique,renewal_date_key,90,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Effective Date Key,actmasterunique,effective_date_key,91,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Basic Premium,actmasterunique,basic_premium,92,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Commission Income,actmasterunique,commission_income,93,1,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,IPT Amount,actmasterunique,ipt_amount,94,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Net Premium,actmasterunique,net_premium,95,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Version Reference,actmasterunique,version_ref,96,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Policy Status Description,actmasterunique,policy_status_desc,97,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Business Event Description,actmasterunique,business_event_desc,98,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Product Name,actmasterunique,product_name,99,0,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Policy Agent Name,actmasterunique,policy_agent_name,100,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Expiry Date Key,actmasterunique,term_end_date_key,101,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Insurer Policy Number,actmasterunique,insurer_policy_no,102,1,1,Uniqueness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Inception Date Key,actmasterunique,inception_date_key,103,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmasterunique,Accepted Date Key,actmasterunique,accepted_date_key,104,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmasterunique,Renewal Date Key,actmasterunique,renewal_date_key,105,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmasterunique,Effective Date Key,actmasterunique,effective_date_key,106,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmasterunique,Expiry Date Key,actmasterunique,term_end_date_key,107,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmasterunique,Inception Date Key,actmasterunique,inception_date_key,108,1,2,Timeliness,null,null,['<='],['actmasterunique:term_end_date_key'],null,Acturis,Policy
+actmasterunique,Accepted Date Key,actmasterunique,accepted_date_key,109,1,2,Timeliness,null,null,['<='],['actmasterunique:term_end_date_key'],null,Acturis,Policy
+actmasterunique,Renewal Date Key,actmasterunique,renewal_date_key,110,1,3,Timeliness,null,null,['=='],['actmasterunique:term_end_date_key+1'],null,Acturis,Policy
+actmasterunique,Effective Date Key,actmasterunique,effective_date_key,111,1,3,Timeliness,null,null,['<='],['actmasterunique:term_end_date_key'],null,Acturis,Policy
+actmasterunique,Expiry Date Key,actmasterunique,term_end_date_key,112,1,3,Timeliness,null,null,['=='],['actmasterunique:renewal_date_key-1'],null,Acturis,Policy
+actmastertransaction,Cancellation Reason Description,actmastertransaction,cancellation_reason_desc,377,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Payment Method Description,actmastertransaction,payment_method_desc,378,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Policy Agent Number,actmastertransaction,agent_number,379,1,1,Completeness,null,['policy_agent_name'],['!='],['no agent'],null,Acturis,Policy
+actmastertransaction,Policy Band Effective Nbrn,actmastertransaction,policy_band_effective_nbrn,380,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Cancellation Date,actmastertransaction,cancellation_date,381,0,2,Completeness,null,['cn_insurer_policy_no'],['!='],['Null'],null,Acturis,Policy
+actmastertransaction,Reinstatement Date,actmastertransaction,reinstatement_date,382,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Sum of Commission Income,actmastertransaction,commission_income_sum,383,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Sum of IPT Amount Sum,actmastertransaction,ipt_amount_sum,384,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Sum of Net Premium,actmastertransaction,net_premium_sum,385,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Mid-Term Adjustment Insurer Policy Number ,actmastertransaction,mta_insurer_policy_no,386,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Mid-Term Adjustment Basic Premium,actmastertransaction,mta_basic_premium,387,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Mid-Term Adjustment Commission Income,actmastertransaction,mta_commission_income,388,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Mid-Term Adjustment IPT Amount,actmastertransaction,mta_ipt_amount,389,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Mid-Term Adjustment Net Premium,actmastertransaction,mta_net_premium,390,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Mid-Term Adjustment Version Reference,actmastertransaction,mta_version_ref,391,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Mid-Term Adjustment Business Event Description,actmastertransaction,mta_business_event_desc,392,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Mid-Term Adjustment Policy Band Effective Date,actmastertransaction,policy_band_effective_mta,393,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Mid-Term Adjustment Policy Status Description,actmastertransaction,mta_policy_status_desc,394,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmastertransaction,Cancellation Date,actmastertransaction,cancellation_date,395,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmasterunique,Cancellation Reason Description,actmasterunique,cancellation_reason_desc,397,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Payment Method Description,actmasterunique,payment_method_desc,398,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Policy Agent Number,actmasterunique,agent_number,399,1,1,Completeness,null,['policy_agent_name'],['!='],['no agent'],null,Acturis,Policy
+actmasterunique,Cancellation Date,actmasterunique,cancellation_date,400,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Discounted Premium,actmasterunique,discounted_premium,401,0,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Status,actmasterunique,Status,402,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Current Date Act,actmasterunique,current_date_act,403,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Renewal Date Filter,actmasterunique,renewal_date_filter,404,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Policy Discounted Premium,actmasterunique,policy_discounted_premium,405,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Policy Commission Income,actmasterunique,policy_commission_income,406,1,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Policy Ipt Amount,actmasterunique,policy_ipt_amount,407,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Policy Net Premium,actmasterunique,policy_net_premium,408,1,1,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Policy Branch,actmasterunique,policy_branch,409,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Product Code,actmasterunique,product_code,410,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Sub Status,actmasterunique,SubStatus,411,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Reinstatement Date,actmasterunique,reinstatement_date,412,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Sum of Commission Income,actmasterunique,commission_income_sum,413,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Sum of IPT Amount Sum,actmasterunique,ipt_amount_sum,414,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Sum of Net Premium,actmasterunique,net_premium_sum,415,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Reinstatement Basic Premium,actmasterunique,rein_basic_premium,416,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Reinstatement Commission Income,actmasterunique,rein_commission_income,417,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Reinstatement Net Premium,actmasterunique,rein_net_premium,418,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Reinstatement IPT Amount,actmasterunique,rein_ipt_amount,419,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Reinstatement Policy Business Event,actmasterunique,rein_business_event_desc,420,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Reinstatement Policy Status,actmasterunique,rein_policy_status_desc,421,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Reinstatement Discounted Premium,actmasterunique,rein_discounted_premium,422,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Cancellation Basic Premium,actmasterunique,cn_basic_premium,423,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Cancellation Commission Income,actmasterunique,cn_commission_income,424,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Cancellation Net Premium,actmasterunique,cn_net_premium,425,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Cancellation Ipt Amount,actmasterunique,cn_ipt_amount,426,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Cancellation Policy Business Event Description,actmasterunique,cn_business_event_desc,427,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Cancellation Policy Status Description,actmasterunique,cn_policy_status_desc,428,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Cancellation Discounted Premium,actmasterunique,cn_discounted_premium,429,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Mid-Term Adjustment Basic Premium,actmasterunique,mta_basic_premium,430,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Mid-Term Adjustment Policy Band Effective,actmasterunique,policy_band_effective_mta,431,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Mid-Term Adjustment Business Event Description,actmasterunique,mta_business_event_desc,432,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Mid-Term Adjustment Policy Status Description,actmasterunique,mta_policy_status_desc,433,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Mid-Term Adjustment Discounted Premium,actmasterunique,mta_discounted_premium,434,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actmasterunique,Cancellation Date,actmasterunique,cancellation_date,435,1,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,Acturis,Policy
+actmasterunique,Current Date Act,actmasterunique,current_date_act,436,1,2,Validity,null,null,['Format'],['YYYY MM DD'],null,Acturis,Policy
+actpolicydetailed,Policy Agent Number,actpolicydetailed,agent_number,438,1,1,Completeness,null,['policy_agent_name'],['!='],['no agent'],null,Acturis,Policy
+actpolicydetailed,Cancellation Reason Key,actpolicydetailed,cancellation_reason_key,439,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Cancellation Reason Description,actpolicydetailed,cancellation_reason_desc,440,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Payment Method Description,actpolicydetailed,payment_method_desc,441,0,3,Completeness,null,null,null,null,null,Acturis,Policy
+actpolicydetailed,Payment Method Key,actpolicydetailed,payment_method_key,442,0,2,Completeness,null,null,null,null,null,Acturis,Policy
+Contract,CRAW Unique Identifier,Contract,crawuniqueid,113,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Event Type,Contract,EventType,114,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Contract Type Name,Contract,ContractTypeName,115,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Contract ID,Contract,ContractId,116,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Contract Reference,Contract,ContractReference,117,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Case Reference,Contract,CaseReference,118,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Renewal Number,Contract,RenewalNumber,119,1,1,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Quote Number,Contract,QuoteNumber,120,1,1,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,MTA Number,Contract,MTANumber,121,0,3,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,I90 Policy Number,Contract,I90PolicyNumber,122,0,2,Completeness,null,['ContractStatusName'],['=='],['taken up'],null,ADGO,Policy
+Contract,New Renewal,Contract,NewRenewal,123,1,1,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Contract Status Name,Contract,ContractStatusName,124,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Contract Sub Status Name,Contract,ContractSubStatusName,125,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Last Modified Date,Contract,LastModifiedDate,126,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Last User Modified By,Contract,LastModifiedBy,127,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Last User Modified Date,Contract,LastUserModifiedDate,128,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Last User Modified By,Contract,LastUserModifiedBy,129,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Underwriter Display Name,Contract,UnderwriterDisplayName,130,1,1,Completeness,null,['ContractStatusName'],['in'],"[['taken up','quoted']]",null,ADGO,Policy
+Contract,Underwriter Party Reference,Contract,UnderwriterPartyReference,131,1,1,Completeness,null,['ContractStatusName'],['in'],"[['taken up','quoted']]",null,ADGO,Policy
+Contract,Product Name,Contract,ProductName,132,1,1,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Business Category,Contract,BusinessCategory,133,1,1,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Business Type,Contract,BusinessType,134,0,2,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Is Building Constructed,Contract,IsBuildingConstructed,135,0,3,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Insured Display Name,Contract,InsuredDisplayName,136,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Insured Party Reference,Contract,InsuredPartyReference,137,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Description,Contract,Description,138,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Contract Structure Name,Contract,ContractStructureName,139,0,2,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Insurance Type Name,Contract,InsuranceTypeName,140,1,1,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Submission Source,Contract,SubmissionSource,141,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Submission Created Date,Contract,SubmissionCreatedDate,142,0,2,Completeness,null,['ContractSubStatusName'],['=='],['at submission'],null,ADGO,Policy
+Contract,Submission Receipt Date,Contract,SubmissionReceiptDate,143,0,2,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Broker Dead Line Date,Contract,BrokerDeadLineDate,144,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Quote Created On,Contract,QuoteCreatedOn,145,0,2,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Quote Issued Date,Contract,QuoteIssuedDate,146,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Quote Expiry Date,Contract,QuoteExpiryDate,147,0,3,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Inception Date,Contract,InceptionDate,148,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Expiry Date,Contract,ExpiryDate,149,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Contract Closed Date,Contract,ContractClosedDate,150,0,2,Completeness,null,['ContractStatusName'],['in'],"[['cancelled','taken up','not taken up','provisional','closed','quoted']]",null,ADGO,Policy
+Contract,Year Of Account,Contract,YearOfAccount,151,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Covers,Contract,Covers,152,0,2,Completeness,null,['ContractSubStatusName'],['!='],['at submission'],null,ADGO,Policy
+Contract,Claim Experience,Contract,ClaimExperience,153,0,2,Completeness,null,"['NumberOfClaims','ContractSubStatusName']","['>','==']","[0,'quote issued']",null,ADGO,Policy
+Contract,Number Of Claims,Contract,NumberOfClaims,154,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Claim Experience Date,Contract,ClaimExperienceDate,155,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Intermediary Display Name,Contract,IntermediaryDisplayName,156,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Intermediary Party Reference,Contract,IntermediaryPartyReference,157,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Contract,Broker Variant,Contract,BrokerVariant,158,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Declined Reason Description,Contract,DeclinedReasonDescription,159,0,2,Completeness,null,['DeclinedReasonCode'],['!='],['Null'],null,ADGO,Policy
+Contract,Declined Additional Description,Contract,DeclinedAdditionalDescription,160,0,2,Completeness,null,['DeclinedReasonCode'],['!='],['Null'],null,ADGO,Policy
+Contract,Lost Reason,Contract,LostReason,161,0,2,Completeness,null,['ContractSubStatusName'],['=='],['lost'],null,ADGO,Policy
+Contract,Sales Force Reference,Contract,SalesForceReference,162,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Payment Method,Contract,PaymentMethod,163,1,1,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Target Price,Contract,TargetPrice,164,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Total Actual Gross Premium Including Taxes,Contract,TotalActualGrossPremiumIncludingTaxes,165,1,1,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,Gross Premium Including Taxes Total Prorata,Contract,GrossPremiumIncludingTaxesTotalProrata,166,0,2,Completeness,null,['ContractSubStatusName'],['=='],['quote issued'],null,ADGO,Policy
+Contract,CRAW Unique Identifier,Contract,crawuniqueid,167,1,1,Uniqueness,null,null,null,null,null,ADGO,Policy
+Contract,Event Type,Contract,EventType,168,1,1,Validity,null,null,['in'],"[['submission converted', 'quote not taken up', 'quote taken up','quote declined', 'quote save', 'submission save','quote bind mta', 'quote make offer', 'submission abandon','quote next stage', 'quote mark as lost', 'quote endorse','submission declined', 'quote convert to quote', 'quote price']]",[2],ADGO,Policy
+Contract,Contract Type Name,Contract,ContractTypeName,169,0,2,Validity,null,null,['in'],"[['submission','quote']]",[2],ADGO,Policy
+Contract,Contract ID,Contract,ContractId,170,1,1,Uniqueness,null,null,null,null,null,ADGO,Policy
+Contract,Contract Status Name,Contract,ContractStatusName,171,0,2,Validity,null,null,['in'],"[['converted', 'not taken up', 'taken up', 'closed', 'declined','cancelled', 'provisional', 'in progress', 'quoted', 'abandoned']]",[2],ADGO,Policy
+Contract,Contract Sub Status Name,Contract,ContractSubStatusName,172,0,2,Validity,null,null,['in'],"[['at submission', 'quote issued', 'declined', 'in progress', 'lost']]",[2],ADGO,Policy
+Contract,Last Modified Date,Contract,LastModifiedDate,173,0,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,ADGO,Policy
+Contract,Last User Modified Date,Contract,LastUserModifiedDate,174,0,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,ADGO,Policy
+Contract,Product Name,Contract,ProductName,175,1,1,Validity,null,null,['in'],"[['systemproduct', 'ppp', 'pi', 'commercial combined', 'motor trade', 'systemsubmission']]",null,ADGO,Policy
+Contract,Business Category,Contract,BusinessCategory,176,1,1,Validity,null,null,['in'],"[['sme','mid']]",[2],ADGO,Policy
+Contract,Is Building Constructed,Contract,IsBuildingConstructed,177,0,3,Validity,null,null,['in'],"[['yes','no']]",[2],ADGO,Policy
+Contract,Submission Created Date,Contract,SubmissionCreatedDate,178,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Submission Receipt Date,Contract,SubmissionReceiptDate,179,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Broker Dead Line Date,Contract,BrokerDeadLineDate,180,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Quote Created On,Contract,QuoteCreatedOn,181,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Quote Issued Date,Contract,QuoteIssuedDate,182,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Quote Expiry Date,Contract,QuoteExpiryDate,183,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Inception Date,Contract,InceptionDate,184,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Expiry Date,Contract,ExpiryDate,185,1,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Contract Closed Date,Contract,ContractClosedDate,186,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Claim Experience Date,Contract,ClaimExperienceDate,187,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Contract,Payment Method,Contract,PaymentMethod,188,1,1,Validity,null,null,['in'],"[['crc', 'ini']]",[1],ADGO,Policy
+Party Org,CRAW Unique Identifier,Party Org,crawuniqueid,189,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Customer Party Reference,Party Org,PartyReference,190,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Party Role Type Name,Party Org,PartyTypeName,191,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Last Modified Date,Party Org,LastModifiedDate,192,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Last User Modified By,Party Org,LastModifiedBy,193,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Display Name,Party Org,DisplayName,194,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Customer Party Role,Party Org,PartyRole,195,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Multi Role,Party Org,MultiRole,196,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Agency Branch,Party Org,AgencyBranch,197,1,1,Completeness,null,['PartyRole'],['=='],['intermediary'],null,ADGO,Customer
+Party Org,Agency Number,Party Org,AgencyNumber,198,0,2,Completeness,null,['PartyRole'],['=='],['intermediary'],null,ADGO,Customer
+Party Org,Full Name,Party Org,FullName,199,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Organisation Type,Party Org,OrganisationType,200,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Business Type,Party Org,BusinessType,201,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Customer Address Line 1,Party Org,AddressLine1,202,0,3,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Customer Address Line 2,Party Org,AddressLine2,203,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,City,Party Org,City,204,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Customer Post Code,Party Org,PostOrZipCode,205,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Country Name,Party Org,CountryName,206,0,2,Completeness,null,['PostOrZipCode'],['!='],['Null'],null,ADGO,Customer
+Party Org,Created Date,Party Org,CreatedDate,209,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Party Status,Party Org,PartyStatus,210,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Date Last Checked,Party Org,DateLastChecked,211,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,Check Done By,Party Org,CheckDoneBy,212,0,3,Completeness,null,null,null,null,null,ADGO,Customer
+Party Org,CRAW Unique Identifier,Party Org,crawuniqueid,213,1,1,Uniqueness,null,null,null,null,null,ADGO,Customer
+Party Org,Customer Party Reference,Party Org,PartyReference,214,1,1,Uniqueness,null,null,null,null,null,ADGO,Customer
+Party Org,Last Modified Date,Party Org,LastModifiedDate,215,0,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,ADGO,Customer
+Party Org,Organisation Type,Party Org,OrganisationType,216,0,2,Validity,null,null,['in'],"[['business', 'charity', 'union']]",[2],ADGO,Customer
+Party Org,Business Type,Party Org,BusinessType,217,0,2,Validity,null,null,['in'],"[['limited company', 'plc', 'partnership', 'gmbh', 'sole trader', 'sa','ltd company']]",[2],ADGO,Customer
+Party Org,Created Date,Party Org,CreatedDate,218,0,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,ADGO,Customer
+Party Org,Party Status,Party Org,PartyStatus,219,0,2,Validity,null,null,['in'],"[['cleared','uncleared']]",[2],ADGO,Customer
+Contract,Underwriter Display Name,Contract,UnderwriterDisplayName,222,1,1,Validity,null,null,['Contains'],"[',']",null,ADGO,Policy
+Contract,Underwriter Party Reference,Contract,UnderwriterPartyReference,223,1,1,Validity,null,null,['Format'],['^pty'],null,ADGO,Policy
+Contract,Insured Party Reference,Contract,InsuredPartyReference,224,1,1,Validity,null,null,['Format'],['^pty'],null,ADGO,Policy
+Party Org,Date Last Checked,Party Org,DateLastChecked,225,0,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,ADGO,Customer
+Contract,Contract Reference,Contract,ContractReference,226,1,1,Validity,null,"['ContractTypeName','ContractReference']","['in','Format']","[['quote', 'submission'],'^rsk[0-9].{7}$|^rsk.*q.*']",null,ADGO,Policy
+Contract,Declined Reason Code,Contract,DeclinedReasonCode,227,0,2,Validity,null,null,['in'],"[['ntu - premium', 'decline - claims experience','decline - unable to compete with target premium','decline - duplicate entry', 'decline - trade / activities','decline - location / post code', 'decline - construction','decline - not pursued', 'decline - broker unsupportive','decline - unable to meet broker deadline','decline - multi-tenure', 'decline - cover / terms','decline - flood', 'rate/price', 're-quoted', 'appetite','cover,t&c s', 'construction', 'claims', 'renewal declined','payment', 'exposures', 'accumulation', 'ntu - cover / terms','decline - already declined', 'decline - already held', 'capacity','decline - insufficient information', 'decline - unoccupied property', 'ntu - indication only', 'survey', 'non-renewal business', 'ntu - other','ntu - broker unsupportive', 'decline - other','ntu - risk placed elsewhere', 'decline - capacity', 'sanctions', 're-referenced at renewals', 'decline - inadequate protection','decline - class of business not written', 'decline - logged incorrectly', 'ntu - re-quoted', 'further claims', 'ntu - market exercise', 'ntu - change of intermediary', 'ntu - flood','decline - moral risk', 'decline - market exercise', 'ntu - holding insurer reduced to retain','decline - risk management', 'decline - sanctions']]",[1],ADGO,Policy
+Party Org,Country Name,Party Org,CountryName,228,0,2,Validity,null,null,['in'],['ISO'],null,ADGO,Customer
+Schedule,CRAW Unique Identifier,Schedule,crawuniqueid,229,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,CRAW Unique Identifier,Schedule,crawuniqueid,230,1,1,Uniqueness,null,null,null,null,null,ADGO,Policy
+Schedule,ScheduleId,Schedule,ScheduleId,231,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Parent ScheduleId,Schedule,ParentScheduleId,232,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Contract ID,Schedule,ContractId,233,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Contract Reference,Schedule,ContractReference,234,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Country Name,Schedule,Country,235,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Code,Schedule,Code,236,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Description,Schedule,Description,237,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Inception Date,Schedule,InceptionDate,238,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Expiry Date,Schedule,ExpiryDate,239,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,UPRN,Schedule,UPRN,240,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Coverages,Schedule,Coverages,241,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Premiums,Schedule,Premiums,242,0,2,Completeness,null,['Code'],['!='],['Null'],null,ADGO,Policy
+Schedule,Last Modified Date,Schedule,LastModifiedDate,243,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Customer Postcode,Schedule,PostCode,244,1,1,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Geocoded Address,Schedule,GeocodedAddress,245,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Original Full Address,Schedule,OriginalFullAddress,246,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Longitude,Schedule,Longitude,247,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Latitude,Schedule,Latitude,248,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Vacant,Schedule,Vacant,249,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Survey Required,Schedule,SurveyRequired,250,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Survey Status,Schedule,SurveyStatus,251,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Year of Build,Schedule,YearOfBuild,252,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Occupation Code,Schedule,OccupationCode,253,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Reinsurance Code,Schedule,ReinsuranceCode,254,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Trade Category Code,Schedule,TradeCategoryCode,255,0,2,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Trade Classification,Schedule,TradeClassification,256,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Trade Group,Schedule,TradeGroup,257,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Rating Area,Schedule,RatingArea,258,0,3,Completeness,null,['Code'],['!='],['Null'],null,ADGO,Policy
+Schedule,Location Max TSI,Schedule,LocationMaxTSI,259,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Additional Parties,Schedule,AdditionalParties,260,0,3,Completeness,null,null,null,null,null,ADGO,Policy
+Schedule,Code,Schedule,Code,261,0,3,Validity,null,null,['in'],['ISO'],null,ADGO,Policy
+Schedule,Inception Date,Schedule,InceptionDate,262,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Schedule,Expiry Date,Schedule,ExpiryDate,263,1,1,Validity,null,null,['Format'],['YYYY MM DD'],null,ADGO,Policy
+Schedule,Last Modified Date,Schedule,LastModifiedDate,264,0,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,ADGO,Policy
+Schedule,Geocoded Address,Schedule,GeocodedAddress,265,0,3,Validity,null,null,['Contains'],"[',']",null,ADGO,Policy
+Schedule,Longitude,Schedule,Longitude,266,0,3,Validity,null,null,['Contains'],['.'],null,ADGO,Policy
+Schedule,Latitude,Schedule,Latitude,267,0,3,Validity,null,null,['Contains'],['.'],null,ADGO,Policy
+Schedule,Year of Build,Schedule,YearOfBuild,268,0,3,Validity,null,null,['in'],"[['unknown', 'yob005', 'yob010', 'yob001', 'yob004', 'yob008','yob003', 'yob011', 'yob006', 'yob007', 'yob009', 'yob002']]",[1],ADGO,Policy
+Party,CRAW Unique Identifier,Party,crawuniqueid,269,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Customer Party Reference,Party,PartyReference,270,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Party Reference,Party,PartyTypeName,271,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Last Modified Date,Party,LastModifiedDate,272,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Last User Modified By,Party,LastModifiedBy,273,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Party Status,Party,PartyStatus,274,0,3,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Date Last Checked,Party,DateLastChecked,275,0,3,Completeness,null,['CreatedDate'],['!='],['Null'],null,ADGO,Customer
+Party,Check Done By,Party,CheckDoneBy,276,0,3,Completeness,null,['CreatedDate'],['!='],['Null'],null,ADGO,Customer
+Party,Display Name,Party,DisplayName,277,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Customer Party Role,Party,PartyRole,278,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Multi Role,Party,MultiRole,279,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Created Date,Party,CreatedDate,280,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Title,Party,Title,281,0,3,Completeness,null,null,null,null,null,ADGO,Customer
+Party,First Name,Party,FirstName,282,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Surname,Party,Surname,283,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Gender,Party,Gender,284,0,2,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Customer Address Line 1,Party,AddressLine1,285,0,3,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Customer Address Line 2,Party,AddressLine2,286,0,3,Completeness,null,['PostOrZipCode'],['!='],['Null'],null,ADGO,Customer
+Party,Customer City Name ,Party,City,287,0,2,Completeness,null,['PostOrZipCode'],['!='],['Null'],null,ADGO,Customer
+Party,Country Name,Party,CountryName,288,0,2,Completeness,null,['PostOrZipCode'],['!='],['Null'],null,ADGO,Customer
+Party,Customer Postcode,Party,PostOrZipCode,289,1,1,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Customer Primary Email,Party,PrimaryEmail,290,0,3,Completeness,null,null,null,null,null,ADGO,Customer
+Party,Customer Primary Phone,Party,PrimaryPhone,291,0,3,Completeness,null,null,null,null,null,ADGO,Customer
+Party,CRAW Unique Identifier,Party,crawuniqueid,292,1,1,Uniqueness,null,null,null,null,null,ADGO,Customer
+Party,Customer Party Reference,Party,PartyReference,293,1,1,Uniqueness,null,null,null,null,null,ADGO,Customer
+Party,Last Modified Date,Party,LastModifiedDate,294,0,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,ADGO,Customer
+Party,Created Date,Party,CreatedDate,295,0,2,Validity,null,null,['Format'],['YYYY MM DD T'],null,ADGO,Customer
+Party,Customer Primary Email,Party,PrimaryEmail,296,0,3,Validity,null,null,['Format'],['Email'],null,ADGO,Customer
+Party,Customer Primary Phone,Party,PrimaryPhone,297,0,3,Validity,null,null,['Format'],['Number'],null,ADGO,Customer
+Party,RoleActiveIndicator,Party,RoleActiveIndicator,298,0,2,Completeness,null,['PartyRole'],['!='],['Null'],null,ADGO,Customer
+Party,Underwriter Branch,Party,UnderwriterBranch,299,1,1,Completeness,null,['PartyRole'],['=='],['underwriter'],null,ADGO,Customer
+Contract,Declined Reason Code,Contract,DeclinedReasonCode,300,0,2,Completeness,null,['ContractStatusName'],['in'],"[['declined', 'closed', 'not taken up']]",null,ADGO,Policy
+Party,Underwriter Branch,Party,UnderwriterBranch,793,1,1,Validity,null,null,['in'],"[['birmingham','sw  wales', 'scotland', 'ipswich', 'leeds  newcastle', 'london commercial', 'london real estate', 'maidstone', 'manchester', 'national trading centre', 'reading', 'professional indemnity', 'sme  south', 'sme  north', 'sme nb', 'bolton', 'mtsu', 'mlp']]",null,ADGO,Customer
+Agency_Detailed,Agency Number,Agency_Detailed,Agency_Number,1062,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Agency Number Name,Agency_Detailed,Agency_Number_Name,1063,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Product Code,Agency_Detailed,Product_Code,1064,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Product Name,Agency_Detailed,Product_Name,1065,1,1,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Product Grouping Name,Agency_Detailed,Product_Grouping_Name,1066,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Agency Status Code,Agency_Detailed,Agency_Status_Code,1067,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Master Number Code,Agency_Detailed,Master_Number_Code,1068,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Master Number Name,Agency_Detailed,Master_Number_Name,1069,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Master Group Number Code,Agency_Detailed,Master_Group_Number_Code,1070,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Master Group Number Name,Agency_Detailed,Master_Group_Number_Name,1071,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Branch,Agency_Detailed,Branch,1072,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Enter Date Time,Agency_Detailed,Enter_Date_Time,1073,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Enter User Name,Agency_Detailed,Enter_User_Name,1074,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Last Change Date Time,Agency_Detailed,LastChg_Date_Time,1075,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Last Change User Name,Agency_Detailed,LastChg_User_Name,1076,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Town,Agency_Detailed,Town,1077,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Validation Status,Agency_Detailed,Validation_Status,1078,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Gross Written Premium Branch Code,Agency_Detailed,GWP_Branch_Code,1079,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Gross Written Premium Branch Name,Agency_Detailed,GWP_Branch_Name,1080,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Mid Market Premium,Agency_Detailed,MidMarket_Premium,1081,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Segment Overview Name,Agency_Detailed,Segment_Overview_Name,1082,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Account Manager,Agency_Detailed,Account_Manager,1083,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Strategic Relationship Manager,Agency_Detailed,Strategic_Relationship_Manager,1084,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Agency Number,Agency_Detailed,Agency_Number,1085,0,3,Validity,null,null,['LEN(==)'],['7'],null,AgencyHub,Policy
+Agency_Detailed,Master Number Code,Agency_Detailed,Master_Number_Code,1086,0,3,Validity,null,null,['LEN(==)'],['5'],null,AgencyHub,Policy
+Agency_Detailed,Enter Date Time,Agency_Detailed,Enter_Date_Time,1087,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,AgencyHub,Policy
+Agency_Detailed,Last Change Date Time,Agency_Detailed,LastChg_Date_Time,1088,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,AgencyHub,Policy
+Agency_Detailed,New Business Team Code,Agency_Detailed,NB_Team_Code,1089,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,New Business Team Name,Agency_Detailed,NB_Team_Name,1090,0,3,Completeness,null,['NB_Team_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,New Business Underwriter Code,Agency_Detailed,NB_UW_Code,1091,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,New Business Underwriter Name,Agency_Detailed,NB_UW_Name,1092,0,3,Completeness,null,['NB_UW_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,New Business Mid Market Team Code,Agency_Detailed,NB_MidMarket_Team_Code,1093,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,New Business Mid Market Team Name,Agency_Detailed,NB_MidMarket_Team_Name,1094,0,3,Completeness,null,['NB_MidMarket_Team_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,New Business Mid Market Underwriter Code,Agency_Detailed,NB_MidMarket_UW_Code,1095,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,New Business Mid Market Underwriter Name,Agency_Detailed,NB_MidMarket_UW_Name,1096,0,3,Completeness,null,['NB_MidMarket_UW_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Renewal Team Code,Agency_Detailed,RN_Team_Code,1097,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Renewal Team Name,Agency_Detailed,RN_Team_Name,1098,0,3,Completeness,null,['RN_Team_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Renewal Underwriter Code,Agency_Detailed,RN_UW_Code,1099,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Renewal Underwriter Name,Agency_Detailed,RN_UW_Name,1100,0,3,Completeness,null,['RN_UW_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Renewal Mid Market Team Code,Agency_Detailed,RN_MidMarket_Team_Code,1101,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Renewal Mid Market Team Name,Agency_Detailed,RN_MidMarket_Team_Name,1102,0,3,Completeness,null,['RN_MidMarket_Team_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Renewal Mid Market Underwriter Code,Agency_Detailed,RN_MidMarket_UW_Code,1103,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Renewal Mid Market Underwriter Name,Agency_Detailed,RN_MidMarket_UW_Name,1104,0,3,Completeness,null,['RN_MidMarket_UW_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Existing Business Team Code,Agency_Detailed,EB_Team_Code,1105,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Existing Business Team Name,Agency_Detailed,EB_Team_Name,1106,0,3,Completeness,null,['EB_Team_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Existing Business Underwriter Code,Agency_Detailed,EB_UW_Code,1107,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Existing Business Underwriter Name,Agency_Detailed,EB_UW_Name,1108,0,3,Completeness,null,['EB_UW_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Existing Business Mid Market Team Code,Agency_Detailed,EB_MidMarket_Team_Code,1109,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Existing Business Mid Market Team Name,Agency_Detailed,EB_MidMarket_Team_Name,1110,0,3,Completeness,null,['EB_MidMarket_Team_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Existing Business Mid Market Underwriter Code,Agency_Detailed,EB_MidMarket_UW_Code,1111,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Existing Business Mid Market Underwriter Name,Agency_Detailed,EB_MidMarket_UW_Name,1112,0,3,Completeness,null,['EB_MidMarket_UW_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,New Business Branch Code,Agency_Detailed,NB_Branch_Code,1113,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,New Business Branch Name,Agency_Detailed,NB_Branch_Name,1114,0,3,Completeness,null,['NB_Branch_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,New Business Mid Market Branch Code,Agency_Detailed,NB_MidMarket_Branch_Code,1115,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,New Business Mid Market Branch Name,Agency_Detailed,NB_MidMarket_Branch_Name,1116,0,3,Completeness,null,['NB_MidMarket_Branch_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Existing Business Branch Code,Agency_Detailed,EB_Branch_Code,1117,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Existing Business Branch Name,Agency_Detailed,EB_Branch_Name,1118,0,3,Completeness,null,['EB_Branch_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Existing Business Mid Market Branch Code,Agency_Detailed,EB_MidMarket_Branch_Code,1119,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Existing Business Mid Market Branch Name,Agency_Detailed,EB_MidMarket_Branch_Name,1120,0,3,Completeness,null,['EB_MidMarket_Branch_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Renewal Branch Code,Agency_Detailed,RN_Branch_Code,1121,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Renewal Branch Name,Agency_Detailed,RN_Branch_Name,1122,0,3,Completeness,null,['RN_Branch_Code'],['!='],['null'],null,AgencyHub,Policy
+Agency_Detailed,Renewal Mid Market Branch Code,Agency_Detailed,RN_MidMarket_Branch_Code,1123,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Agency_Detailed,Renewal Mid Market Branch Name,Agency_Detailed,RN_MidMarket_Branch_Name,1124,0,3,Completeness,null,['RN_MidMarket_Branch_Code'],['!='],['null'],null,AgencyHub,Policy
+Master_Bro_Broker,Name,Master_Bro_Broker,Name,1125,1,1,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Code,Master_Bro_Broker,code,1126,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Agency Status Code,Master_Bro_Broker,AgencyStatus_Code,1127,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Master Group Number Code,Master_Bro_Broker,MasterGroupNumber_Code,1128,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Master Group Number Name,Master_Bro_Broker,MasterGroupNumber_Name,1129,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Master Number Code,Master_Bro_Broker,MasterNumber_Code,1130,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Master Number Name,Master_Bro_Broker,MasterNumber_Name,1131,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Postcode,Master_Bro_Broker,PostCode,1132,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Account Manager Name,Master_Bro_Broker,AccountManager_Name,1133,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,BNL Member Name,Master_Bro_Broker,BNLMember_Name,1134,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Mid Corp Name,Master_Bro_Broker,MidCorp_Name,1135,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Mailing Name,Master_Bro_Broker,MailingName,1136,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,New Deals Name,Master_Bro_Broker,NewDeals_Name,1137,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Partner Analysis Name,Master_Bro_Broker,PartnerAnalysis_Name,1138,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Scheme UANs Name,Master_Bro_Broker,SchemeUANs_Name,1139,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Segment Overview Name,Master_Bro_Broker,SegmentOverview_Name,1140,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,SRM Panel Name,Master_Bro_Broker,SRMPanel_Name,1141,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Star Brokers Name,Master_Bro_Broker,StarBrokers_Name,1142,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Strategic Office Name,Master_Bro_Broker,StrategicOffice_Name,1143,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Strategic Region Name,Master_Bro_Broker,StrategicRegion_Name,1144,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Strategic Division Name,Master_Bro_Broker,StrategicDivision_Name,1145,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Strategic Partne rName ,Master_Bro_Broker,StrategicPartnerName_Name,1146,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Strategic Relationship Manager Name,Master_Bro_Broker,StrategicRelationshipManager_Name,1147,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Broker Pack Tier 1 Name,Master_Bro_Broker,BrokerPackTier1_Name,1148,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Broker Pack Tier 2 Name,Master_Bro_Broker,BrokerPackTier2_Name,1149,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Broker Pack Tier 3 Name,Master_Bro_Broker,BrokerPackTier3_Name,1150,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Network 1 Name,Master_Bro_Broker,Network1_Name,1151,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Network 2 Name,Master_Bro_Broker,Network2_Name,1152,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Network 3 Name,Master_Bro_Broker,Network3_Name,1153,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Branch Code ,Master_Bro_Broker,BranchCode_Code,1154,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Branch Code Name,Master_Bro_Broker,BranchCode_Name,1155,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Branch Comment,Master_Bro_Broker,BranchComment,1156,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Override Branch Code,Master_Bro_Broker,OverrideBranchCode_Code,1157,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Override Branch Code Name,Master_Bro_Broker,OverrideBranchCode_Name,1158,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Enter Date Time,Master_Bro_Broker,EnterDateTime,1159,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Enter User Name,Master_Bro_Broker,EnterUserName,1160,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Last Change Date Time,Master_Bro_Broker,LastChgDateTime,1161,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Last Change User Name,Master_Bro_Broker,LastChgUserName,1162,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Validation Status,Master_Bro_Broker,ValidationStatus,1163,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_Broker,Code,Master_Bro_Broker,code,1164,0,3,Validity,null,null,['LEN(==)'],['7'],null,AgencyHub,Policy
+Master_Bro_Broker,Master Number Code,Master_Bro_Broker,MasterNumber_Code,1165,0,3,Validity,null,null,['LEN(==)'],['5'],null,AgencyHub,Policy
+Master_Bro_Broker,Enter Date Time,Master_Bro_Broker,EnterDateTime,1166,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,AgencyHub,Policy
+Master_Bro_Broker,Last Change Date Time,Master_Bro_Broker,LastChgDateTime,1167,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,AgencyHub,Policy
+Master_Bro_OrgStructure,Name,Master_Bro_OrgStructure,Name,1339,1,1,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Code,Master_Bro_OrgStructure,code,1340,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Agency Number Code,Master_Bro_OrgStructure,AgencyNumber_Code,1341,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Agency Number Name,Master_Bro_OrgStructure,AgencyNumber_Name,1342,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Transaction Type Code,Master_Bro_OrgStructure,TransactionType_Code,1343,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Transaction Type Name,Master_Bro_OrgStructure,TransactionType_Name,1344,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Product Code,Master_Bro_OrgStructure,Product_Code,1345,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Product Name,Master_Bro_OrgStructure,Product_Name,1346,1,1,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Product Grouping Code,Master_Bro_OrgStructure,ProductGrouping_Code,1347,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Product Grouping Name,Master_Bro_OrgStructure,ProductGrouping_Name,1348,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Premium Low,Master_Bro_OrgStructure,PremiumLow,1349,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Premium High,Master_Bro_OrgStructure,PremiumHigh,1350,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Premium Band Description Code,Master_Bro_OrgStructure,PremiumBandDescription_Code,1351,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Premium Band Description Name,Master_Bro_OrgStructure,PremiumBandDescription_Name,1352,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Team Code,Master_Bro_OrgStructure,Team_Code,1353,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Team Name,Master_Bro_OrgStructure,Team_Name,1354,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Underwriter Code,Master_Bro_OrgStructure,Underwriter_Code,1355,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Underwriter Name,Master_Bro_OrgStructure,Underwriter_Name,1356,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Enter Date Time,Master_Bro_OrgStructure,EnterDateTime,1357,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Enter User Name,Master_Bro_OrgStructure,EnterUserName,1358,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Last Change Date Time,Master_Bro_OrgStructure,LastChgDateTime,1359,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Last Change User Name,Master_Bro_OrgStructure,LastChgUserName,1360,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Agency Status Code,Master_Bro_OrgStructure,AgencyStatus_Code,1361,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Town,Master_Bro_OrgStructure,Town,1362,0,3,Completeness,null,null,null,null,null,AgencyHub,Policy
+Master_Bro_OrgStructure,Agency Number Code,Master_Bro_OrgStructure,AgencyNumber_Code,1363,0,3,Validity,null,null,['LEN(==)'],['7'],null,AgencyHub,Policy
+Master_Bro_OrgStructure,Transaction Type Code,Master_Bro_OrgStructure,TransactionType_Code,1364,0,3,Validity,null,null,['in'],"[['nb', 'rn', 'eb']]",null,AgencyHub,Policy
+Master_Bro_OrgStructure,Enter Date Time,Master_Bro_OrgStructure,EnterDateTime,1365,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,AgencyHub,Policy
+Master_Bro_OrgStructure,Last Change Date Time,Master_Bro_OrgStructure,LastChgDateTime,1366,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,AgencyHub,Policy
+EndFlowState,Timestamp,EndFlowState,timestamp,874,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Email Identifier,EndFlowState,emailIdentifier,875,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Product Type,EndFlowState,productType,876,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Transaction Type,EndFlowState,transactionType,877,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Straight Processed Cases,EndFlowState,stp,878,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Field Failures,EndFlowState,fieldValidationFailures,879,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Reviewer,EndFlowState,reviewer,880,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Duration Awaiting Review,EndFlowState,durationAwaitingReview,881,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Duration In Review,EndFlowState,durationInReview,882,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Modifications,EndFlowState,modifications,883,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Modification Percentage,EndFlowState,modificationPercentage,884,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Validation Failures Percentage,EndFlowState,validationFailuresPercentage,885,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+EndFlowState,Straight Processed Cases,EndFlowState,stp,886,1,3,Validity,null,null,['in'],"[['false', 'true']]",null,Aimie,Claim
+EndFlowState,Reviewer,EndFlowState,reviewer,887,1,3,Validity,null,null,['LEN(==)'],['6'],null,Aimie,Claim
+EndFlowState,Timestamp,EndFlowState,timestamp,888,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Aimie,Claim
+InFlowState,Timestamp,InFlowState,timestamp,889,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+InFlowState,Email Identifier,InFlowState,emailIdentifier,890,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+InFlowState,Flow Status,InFlowState,flowStatus,891,0,3,Completeness,null,null,null,null,null,Aimie,Claim
+InFlowState,Flow Status,InFlowState,flowStatus,892,1,3,Validity,null,null,['in'],"[['awaiting review', 'review complete']]",null,Aimie,Claim
+InFlowState,Timestamp,InFlowState,timestamp,893,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Aimie,Claim
+Transcases,Broker Due Date,Transcases,Broker_Due_Date,1168,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Case Status,Transcases,Case_Status,1169,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Case Reference Prefix,Transcases,CaseRefPrefix,1170,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Created By,Transcases,CreatedBy,1171,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Created Date Time,Transcases,CreatedDateTime,1172,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Policy Renewal Date,Transcases,Idx_Policy_Renewal_Date,1173,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,In Axa Business Services,Transcases,InABS,1174,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Is Quote,Transcases,Is_Quote,1175,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Last Modified Date Time,Transcases,LastModifiedDateTime,1176,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Latest Record,Transcases,LatestRecord,1177,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Original Agency,Transcases,Original_Agency,1178,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Quote Reference,Transcases,Quote_Ref,1179,0,3,Completeness,null,['Is_Quote'],['=='],['y'],null,Galileo,Policy
+Transcases,Renewal Premium,Transcases,Renewal_Premium,1180,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Survey Required,Transcases,SurveyRequired,1181,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Target Premium,Transcases,Target_Premium,1182,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Team Code,Transcases,Team_Code,1183,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Unread Interaction Count,Transcases,Unread_Interaction_Count,1184,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+Transcases,Case Reference Prefix,Transcases,CaseRefPrefix,1185,0,3,Validity,null,null,['in'],[['c']],null,Galileo,Policy
+Transcases,In Axa Business Services,Transcases,InABS,1186,0,3,Validity,null,null,['in'],"[['0',' 1']]",null,Galileo,Policy
+Transcases,Is Quote,Transcases,Is_Quote,1187,0,3,Validity,null,null,['in'],"[['y', 'n']]",null,Galileo,Policy
+Transcases,Original Agency,Transcases,Original_Agency,1188,0,3,Validity,null,null,['LEN(<=)'],['7'],null,Galileo,Policy
+Transcases,Policy Product,Transcases,PolicyProduct,1189,0,3,Validity,null,null,['in'],"[['hom', 'flt', 'gcv', 'com', 'cms', 'sha', 'stv', 'sho', 'mlp', 'pcl', 'off', 'hvi', 'fmo', 'sur', 'cmc', 'ppp', 'agv', 'mtp', 'pli', 'cch', 'fle', 'vps', 'cmb', 'git']]",null,Galileo,Policy
+Transcases,Quote Reference,Transcases,Quote_Ref,1190,0,3,Validity,null,null,['LEN(==)'],['8'],null,Galileo,Policy
+Transcases,Quote System,Transcases,Quote_System,1191,0,3,Validity,null,null,['in'],"[['i90', 'abr', 'qpi']]",null,Galileo,Policy
+Transcases,Broker Due Date,Transcases,Broker_Due_Date,1192,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+Transcases,Case Status,Transcases,Case_Status,1193,0,3,Validity,null,null,['in'],"[['-1', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']]",null,Galileo,Policy
+Transcases,Created Date Time,Transcases,CreatedDateTime,1194,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+Transcases,Policy Renewal Date,Transcases,Idx_Policy_Renewal_Date,1195,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+Transcases,Last Modified Date Time,Transcases,LastModifiedDateTime,1196,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+Transcases,Survey Required,Transcases,SurveyRequired,1197,0,3,Validity,null,null,['in'],"[[True, False]]",null,Galileo,Policy
+TransInteractionsTask,Raw File ID,TransInteractionsTask,raw_file_id,1299,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Case Reference Number,TransInteractionsTask,caseRefNo,1300,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Interaction Read,TransInteractionsTask,InteractionRead,1301,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Referral Team ID,TransInteractionsTask,ReferralTeamId,1302,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Priority Flag,TransInteractionsTask,PriorityFlag,1303,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Interation Title,TransInteractionsTask,InteractionTitle,1304,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Date Time Created,TransInteractionsTask,DateTimeCreated,1305,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Date Time Last Modified,TransInteractionsTask,DateTimeLastModified,1306,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Date Time Archived,TransInteractionsTask,DateTimeArchived,1307,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Operation,TransInteractionsTask,operation,1308,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,High Watermark Date Time,TransInteractionsTask,high_watermark_datetime,1309,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Last Modified Age,TransInteractionsTask,LastModifiedAge,1310,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Interaction ID,TransInteractionsTask,InteractionId,1311,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Consumable Raw Load Date,TransInteractionsTask,consumableraw_loaddate,1312,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Created By,TransInteractionsTask,CreatedBy,1313,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Last Modified By,TransInteractionsTask,LastModifiedBy,1314,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Command ID,TransInteractionsTask,command_id,1315,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Latest Record,TransInteractionsTask,LatestRecord,1316,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransInteractionsTask,Raw File ID,TransInteractionsTask,raw_file_id,1317,0,3,Validity,null,null,['LEN(==)'],['14'],null,Galileo,Policy
+TransInteractionsTask,Case Reference Number,TransInteractionsTask,caseRefNo,1318,0,3,Validity,null,null,['LEN(==)'],['9'],null,Galileo,Policy
+TransInteractionsTask,Date Time Created,TransInteractionsTask,DateTimeCreated,1319,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+TransInteractionsTask,Date Time Last Modified,TransInteractionsTask,DateTimeLastModified,1320,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+TransInteractionsTask,High Watermark Date Time,TransInteractionsTask,high_watermark_datetime,1321,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+TransInteractionsTask,Consumable Raw Load Date,TransInteractionsTask,consumableraw_loaddate,1322,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+TransNotes,Reference ID,TransNotes,ReferenceId,1323,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Reference Type,TransNotes,ReferenceType,1324,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Is Confidential,TransNotes,isConfidential,1325,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Case Reference Number,TransNotes,caseRefNo,1326,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Operation,TransNotes,operation,1327,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,High Watermark Date Time,TransNotes,high_watermark_datetime,1328,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Latest Record,TransNotes,LatestRecord,1329,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Last Modified Age,TransNotes,LastModifiedAge,1330,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Consumable Raw Load Date,TransNotes,consumableraw_loaddate,1331,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Raw Event Date,TransNotes,raw_event_date,1332,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Title,TransNotes,Title,1333,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Command ID,TransNotes,command_id,1334,0,3,Completeness,null,null,null,null,null,Galileo,Policy
+TransNotes,Reference Type,TransNotes,ReferenceType,1335,0,3,Validity,null,null,['in'],"[['quotenote', 'policynote', 'nonabrbusdescription', 'tasknote']]",null,Galileo,Policy
+TransNotes,Is Confidential,TransNotes,isConfidential,1336,0,3,Validity,null,null,['in'],"[['y', 'n']]",null,Galileo,Policy
+TransNotes,High Watermark Date Time,TransNotes,high_watermark_datetime,1337,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+TransNotes,Consumable Raw Load Date,TransNotes,consumableraw_loaddate,1338,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Galileo,Policy
+guidewire_motor,Claim Status,guidewire_motor,Claim_Status,473,0,1,Validity,null,null,['in'],"[['open','reopened','closed','unknown']]",null,Guidewire,Claim
+guidewire_motor,Claim Loss Date,guidewire_motor,claim_loss_date,474,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,Guidewire,Claim
+guidewire_motor,Claim Notification Date,guidewire_motor,claim_notification_date,475,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,Guidewire,Claim
+guidewire_motor,Claim Movement Date,guidewire_motor,claim_movement_date,476,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Guidewire,Claim
+guidewire_motor,Claim Settled Date,guidewire_motor,claim_settled_date,477,0,1,Validity,null,null,['Format'],['YYYY MM DD'],null,Guidewire,Claim
+guidewire_motor,Claim Reopened Date,guidewire_motor,claim_reopened_date,478,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,Guidewire,Claim
+guidewire_motor,Claim ID,guidewire_motor,claim_id,653,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Number,guidewire_motor,claim_number,654,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Peril Description,guidewire_motor,claim_peril_description,655,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Cause Description,guidewire_motor,claim_cause_description,656,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Notified By,guidewire_motor,claim_notified_by,657,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,HOD Code,guidewire_motor,hod_code,658,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Special Investigation Unit,guidewire_motor,siu_status_id,659,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Settlement Reason Description,guidewire_motor,claim_settlement_reason_description,660,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,Guidewire,Claim
+guidewire_motor,Claim Liability Decision Description,guidewire_motor,claim_liability_decision_description,661,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Reopen Reason Description,guidewire_motor,claim_reopen_reason_description,662,0,1,Completeness,null,['claim_status'],['=='],['reopened'],null,Guidewire,Claim
+guidewire_motor,Claim Status,guidewire_motor,Claim_Status,663,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Settlement Amount,guidewire_motor,claim_settlement_amount,664,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Recovered Amount,guidewire_motor,claim_recovered_amount,665,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Incurred Amount,guidewire_motor,claim_incurred_amount,666,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Estimate Amount,guidewire_motor,claim_estimate_amount,667,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Estimate Recovery,guidewire_motor,claim_estimate_recovery,668,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Loss Date,guidewire_motor,claim_loss_date,669,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Notification Date,guidewire_motor,claim_notification_date,670,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Movement Date,guidewire_motor,claim_movement_date,671,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Settled Date,guidewire_motor,claim_settled_date,672,0,1,Completeness,null,['claim_status'],['=='],['closed'],null,Guidewire,Claim
+guidewire_motor,Claim Reopened Date,guidewire_motor,claim_reopened_date,673,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Exposure ID,guidewire_motor,exposure_id,674,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Exposure Description,guidewire_motor,exposure_description,675,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Handler Team,guidewire_motor,handler_team,676,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Sub Cause Description,guidewire_motor,claim_sub_cause_description,677,0,1,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,How Reported,guidewire_motor,howreported,678,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Peril Code,guidewire_motor,peril_code,679,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Cause Code,guidewire_motor,cause_code,680,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Agency Number,guidewire_motor,agency_number,681,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Product Class,guidewire_motor,product_class,682,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Source System ID,guidewire_motor,source_system_id,683,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Source System Description,guidewire_motor,source_system_description,684,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Insurance Type ID,guidewire_motor,insurance_type_id,685,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Insurance Type Description,guidewire_motor,insurance_type_description,686,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Policy Number,guidewire_motor,policy_number,687,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Loss Of Location,guidewire_motor,loss_of_location,688,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim History ID,guidewire_motor,claim_history_id,689,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Activity ID,guidewire_motor,claim_activity_id,690,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+guidewire_motor,Claim Month,guidewire_motor,claim_month,691,0,3,Completeness,null,null,null,null,null,Guidewire,Claim
+i90policytransaction,Policy Number,i90policytransaction,POLNOP,301,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policytransaction,Policy Transaction Date ,i90policytransaction,POLDTR,302,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policytransaction,Transaction ID Date ,i90policytransaction,IDDATR,303,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Policy Status ,i90policydetailed,POLSTP,304,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Branch,i90policydetailed,POLBRP,305,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Product Type ,i90policydetailed,POLTYP,306,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Number ,i90policydetailed,POLNOP,307,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Agent Branch,i90policydetailed,AGTBRP,308,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Agent Number,i90policydetailed,AGTNOP,309,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Master Agent Branch,i90policydetailed,AGTMBP,310,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Master Agent Number,i90policydetailed,AGTMNP,311,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Inception Date,i90policydetailed,INCPTP,312,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Expiry Date ,i90policydetailed,EXPRYP,313,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Original Inception Date ,i90policydetailed,OINCPP,314,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Cancellation Date ,i90policydetailed,CANDTP,315,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Cancellation Reason ,i90policydetailed,CANRNP,316,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Status Date ,i90policydetailed,STDATP,317,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Renewal Type,i90policydetailed,RNTYPP,318,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Inspector District,i90policydetailed,UNDCDP,319,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Date Effective,i90policydetailed,DTEFFP,320,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Batch Branch,i90policydetailed,BCHBRP,321,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Batch Type,i90policydetailed,BCHTYP,322,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Payment Method,i90policydetailed,KPAYMP,323,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Business Description,i90policydetailed,KBUSDP,324,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Co-Insurance Type ,i90policydetailed,CIMHDP,325,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Branch,i90policydetailed,POLBRR,326,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Branch,i90policydetailed,AGTNOR,327,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Risk Type ,i90policydetailed,RSKTYR,328,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Location Number,i90policydetailed,POLLOR,329,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Product Type ,i90policydetailed,POLTYR,330,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Premium Class,i90policydetailed,POLPMR,331,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Risk Number,i90policydetailed,POLRIR,332,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Transaction Code,i90policydetailed,TRNCDR,333,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Sequence Number,i90policydetailed,POLSQR,334,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Batch Number,i90policydetailed,BCHNOR,335,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Stamp Duty,i90policydetailed,SDUTYR,336,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Commission Amount,i90policydetailed,TCOMMR,337,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Annual Basic Premium,i90policydetailed,APREMR,338,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Policy Transaction Date ,i90policydetailed,POLDTR,339,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Transaction ID Time ,i90policydetailed,IDTIMR,340,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Transaction ID Date ,i90policydetailed,IDDATR,341,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Batch Year,i90policydetailed,BCHYRR,342,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Batch Month ,i90policydetailed,BCHMTR,343,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Transaction Status,i90policydetailed,TRNSTR,344,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Record Code ,i90policydetailed,RCODER,345,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Risk Termination Date ,i90policydetailed,RTERMR,346,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Premium Termination Date,i90policydetailed,PTERMR,347,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Source Event Date,i90policydetailed,source_event_date,348,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Source Event Time ,i90policydetailed,source_event_time,349,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,CRAW Unique Identifier,i90policydetailed,craw_uniqueid,350,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Insured Name,i90policydetailed,Insured_Name,351,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Terrorism ,i90policydetailed,TERORP,352,0,3,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Underwriter Responsible ,i90policydetailed,KURSPP,353,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Pru. Dist Code,i90policydetailed,KPRDCP,354,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Max Transaction ID Time ,i90policydetailed,MAX_IDTIMR,355,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Max Policy Sequence Number,i90policydetailed,MAX_POLSQR,356,0,2,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Basic Premium,i90policydetailed,BPREMR,357,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Net Premium,i90policydetailed,NETPREMR,358,1,1,Completeness,null,null,null,null,null,I90,Policy
+i90policydetailed,Inception Date,i90policydetailed,INCPTP,359,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Expiry Date ,i90policydetailed,EXPRYP,360,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Original Inception Date ,i90policydetailed,OINCPP,361,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Cancellation Date ,i90policydetailed,CANDTP,362,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Status Date ,i90policydetailed,STDATP,363,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Date Effective,i90policydetailed,DTEFFP,364,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Policy Transaction Date ,i90policydetailed,POLDTR,365,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Transaction ID Date ,i90policydetailed,IDDATR,366,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Risk Termination Date ,i90policydetailed,RTERMR,367,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Premium Termination Date,i90policydetailed,PTERMR,368,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Source Event Date,i90policydetailed,source_event_date,369,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policydetailed,Inception Date,i90policydetailed,INCPTP,370,0,2,Timeliness,null,null,['<='],['i90policydetailed:EXPRYP'],null,I90,Policy
+i90policydetailed,Expiry Date ,i90policydetailed,EXPRYP,371,0,2,Timeliness,null,null,['>='],['i90policydetailed:INCPTP'],null,I90,Policy
+i90policydetailed,Date Effective,i90policydetailed,DTEFFP,372,0,2,Timeliness,null,null,['<='],['i90policydetailed:EXPRYP'],null,I90,Policy
+i90policyunique,Policy Number,i90policyunique,POLNOP,373,1,1,Uniqueness,null,null,null,null,null,I90,Policy
+i90policyunique,Policy Transaction Date ,i90policyunique,POLDTR,374,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policyunique,Transaction ID Date ,i90policyunique,IDDATR,375,0,2,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+i90policyunique,Cancellation Date ,i90policyunique,CANDTP,376,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+LatestPolicyTransactions,Policy Number,LatestPolicyTransactions,PolicyNumber,894,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Policy Number,LatestPolicyTransactions,PolicyNumber,895,1,1,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+LatestPolicyTransactions,Renewal Number,LatestPolicyTransactions,RenewalNumber,896,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Policy Status,LatestPolicyTransactions,PolicyStatus,897,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Is Active,LatestPolicyTransactions,IsActive,898,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Location Number,LatestPolicyTransactions,LocationNumber,899,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Risk Number,LatestPolicyTransactions,RiskNumber,900,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Risk Type,LatestPolicyTransactions,RiskType,901,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Premium Class,LatestPolicyTransactions,PremiumClass,902,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Product Name,LatestPolicyTransactions,ProductName,903,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Sequence Number,LatestPolicyTransactions,SequenceNo,904,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Batch Type,LatestPolicyTransactions,BatchType,905,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,TransactionType,LatestPolicyTransactions,TransactionType,906,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Inception Date,LatestPolicyTransactions,InceptionDate,907,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Expiry Date,LatestPolicyTransactions,ExpiryDate,908,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Effective Date,LatestPolicyTransactions,EffectiveDate,909,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Risk Terminated Date,LatestPolicyTransactions,RiskTerminatedDate,910,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Inception Date,LatestPolicyTransactions,InceptionDate,911,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+LatestPolicyTransactions,Expiry Date,LatestPolicyTransactions,ExpiryDate,912,1,1,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+LatestPolicyTransactions,Effective Date,LatestPolicyTransactions,EffectiveDate,913,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+LatestPolicyTransactions,Inception Date,LatestPolicyTransactions,InceptionDate,914,0,3,Timeliness,null,null,['<='],['LatestPolicyTransactions:ExpiryDate'],null,I90,Policy
+LatestPolicyTransactions,Expiry Date,LatestPolicyTransactions,ExpiryDate,915,1,1,Timeliness,null,null,['>='],['LatestPolicyTransactions:InceptionDate'],null,I90,Policy
+LatestPolicyTransactions,Effective Date,LatestPolicyTransactions,EffectiveDate,916,0,3,Timeliness,null,null,['<='],['LatestPolicyTransactions:ExpiryDate'],null,I90,Policy
+LatestPolicyTransactions,Risk Terminated Date,LatestPolicyTransactions,RiskTerminatedDate,917,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+LatestPolicyTransactions,Base Premium,LatestPolicyTransactions,BasePremium,918,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Commission Amount,LatestPolicyTransactions,CommissionAmount,919,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Commission Rate,LatestPolicyTransactions,CommissionRate,920,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Insurance Premium Tax,LatestPolicyTransactions,IPT,921,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Agency Number,LatestPolicyTransactions,AgencyNumber,922,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Agency Number,LatestPolicyTransactions,AgencyNumber,923,0,3,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+LatestPolicyTransactions,Agency Branch,LatestPolicyTransactions,AgencyBranch,924,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Occupation Code,LatestPolicyTransactions,OccupationCode,925,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Form Type,LatestPolicyTransactions,FormType,926,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Is Active Risk,LatestPolicyTransactions,isActiveRisk,927,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Is Active Location,LatestPolicyTransactions,isActiveLocation,928,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyTransactions,Is Active Risk,LatestPolicyTransactions,isActiveRisk,929,0,3,Validity,null,null,['in'],"[['yes', 'no']]",null,I90,Policy
+LatestPolicyTransactions,Is Active Location,LatestPolicyTransactions,isActiveLocation,930,0,3,Validity,null,null,['in'],"[['yes', 'no']]",null,I90,Policy
+LatestPolicyView,Policy Number,LatestPolicyView,PolicyNumber,931,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Policy Number,LatestPolicyView,PolicyNumber,932,1,1,Uniqueness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Policy Number,LatestPolicyView,PolicyNumber,933,1,1,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+LatestPolicyView,Renewal Number,LatestPolicyView,RenewalNumber,934,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,New Renewal,LatestPolicyView,NewRenewal,935,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Policy Status,LatestPolicyView,PolicyStatus,936,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Product Name,LatestPolicyView,ProductName,937,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Inception Date,LatestPolicyView,InceptionDate,938,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Expiry Date,LatestPolicyView,ExpiryDate,939,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Cancelled Date,LatestPolicyView,CancelledDate,940,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Inception Date,LatestPolicyView,InceptionDate,941,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+LatestPolicyView,Expiry Date,LatestPolicyView,ExpiryDate,942,1,1,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+LatestPolicyView,Inception Date,LatestPolicyView,InceptionDate,943,0,3,Timeliness,null,null,['<='],['LatestPolicyView:ExpiryDate'],null,I90,Policy
+LatestPolicyView,Expiry Date,LatestPolicyView,ExpiryDate,944,1,1,Timeliness,null,null,['>='],['LatestPolicyView:InceptionDate'],null,I90,Policy
+LatestPolicyView,Cancelled Date,LatestPolicyView,CancelledDate,945,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+LatestPolicyView,Cancelled Reason,LatestPolicyView,CancelledReason,946,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Base Premium,LatestPolicyView,BasePremium,947,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Net Premium,LatestPolicyView,NetPremium,948,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Commission Amount,LatestPolicyView,CommissionAmount,949,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Commission Rate,LatestPolicyView,CommissionRate,950,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Insurance Premium Tax,LatestPolicyView,IPT,951,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Total Location Count,LatestPolicyView,TotalLocationCount,952,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Insured Name,LatestPolicyView,InsuredName,953,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Agency Number,LatestPolicyView,AgencyNumber,954,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Agency Number,LatestPolicyView,AgencyNumber,955,0,3,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+LatestPolicyView,Agency Branch,LatestPolicyView,AgencyBranch,956,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Technical Price Source,LatestPolicyView,TechnicalPriceSource,957,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Original Inception Date,LatestPolicyView,OriginalInceptionDate,958,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Original Inception Date,LatestPolicyView,OriginalInceptionDate,959,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+LatestPolicyView,Renewal Type,LatestPolicyView,RenewalType,960,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Underwriter,LatestPolicyView,Underwriter,961,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,External Policy Number,LatestPolicyView,ExternalPolicyNumber,962,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Payment Method,LatestPolicyView,PaymentMethod,963,1,1,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Policy Branch,LatestPolicyView,PolicyBranch,964,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Client Key,LatestPolicyView,ClientKey,965,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Client Key,LatestPolicyView,ClientKey,966,0,3,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+LatestPolicyView,Coinsurance Method,LatestPolicyView,CoinsuranceMethod,967,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Scheme Reference,LatestPolicyView,SchemeReference,968,0,3,Completeness,null,null,null,null,null,I90,Policy
+LatestPolicyView,Is Active,LatestPolicyView,IsActive,969,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Policy Number,PolicyHeader,PolicyNumber,970,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Policy Number,PolicyHeader,PolicyNumber,971,1,1,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+PolicyHeader,Product Name,PolicyHeader,ProductName,972,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Policy Status,PolicyHeader,PolicyStatus,973,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Technical Price Source,PolicyHeader,TechnicalPriceSource,974,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Policy Branch,PolicyHeader,PolicyBranch,975,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Original Inception Date,PolicyHeader,OriginalInceptionDate,976,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Latest Inception Date,PolicyHeader,LatestInceptionDate,977,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Latest Expiry Date,PolicyHeader,LatestExpiryDate,978,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Original Inception Date,PolicyHeader,OriginalInceptionDate,979,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyHeader,Latest Inception Date,PolicyHeader,LatestInceptionDate,980,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyHeader,Latest Expiry Date,PolicyHeader,LatestExpiryDate,981,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyHeader,Payment Method,PolicyHeader,PaymentMethod,982,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Business Description,PolicyHeader,BusinessDescription,983,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Effective Date,PolicyHeader,EffectiveDate,984,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Client Key,PolicyHeader,ClientKey,985,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Client Key,PolicyHeader,ClientKey,986,0,3,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+PolicyHeader,AXA Share,PolicyHeader,AxaShare,987,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Agency Number,PolicyHeader,AgencyNumber,988,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Agency Number,PolicyHeader,AgencyNumber,989,0,3,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+PolicyHeader,Agency Branch,PolicyHeader,AgencyBranch,990,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Insured Name,PolicyHeader,InsuredName,991,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Renewal Type,PolicyHeader,RenewalType,992,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Underwriter,PolicyHeader,Underwriter,993,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,External Policy Number,PolicyHeader,ExternalPolicyNumber,994,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Agency Policy Number,PolicyHeader,AgencyPolicyNumber,995,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Inspector Dist,PolicyHeader,InspectorDist,996,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Instalment Number,PolicyHeader,InstalmentNumber,997,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Replaces Policies,PolicyHeader,ReplacesPolicies,998,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Old Policy Number,PolicyHeader,OldPolicyNumber,999,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Cancelled Date,PolicyHeader,CancelledDate,1000,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Cancelled Reason,PolicyHeader,CancelledReason,1001,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Notices To,PolicyHeader,NoticesTo,1002,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Software House Mrkr,PolicyHeader,SWH,1003,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Bordereau Indicator,PolicyHeader,BordereauIndicator,1004,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Terrorism Cover,PolicyHeader,TerrorismCover,1005,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Scheme Reference,PolicyHeader,SchemeReference,1006,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Date of last adjustment,PolicyHeader,DOLA,1007,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyHeader,Date of last adjustment,PolicyHeader,DOLA,1008,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyHeader,Coinsurance Method,PolicyHeader,CoinsuranceMethod,1009,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Policy Number,PolicyTransactions,PolicyNumber,1010,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Policy Number,PolicyTransactions,PolicyNumber,1011,1,1,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+PolicyTransactions,Renewal Number,PolicyTransactions,RenewalNumber,1012,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Location Number,PolicyTransactions,LocationNumber,1013,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Risk Number,PolicyTransactions,RiskNumber,1014,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Risk Type,PolicyTransactions,RiskType,1015,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Premium Class,PolicyTransactions,PremiumClass,1016,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Product Name,PolicyTransactions,ProductName,1017,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Sequence Number,PolicyTransactions,SequenceNo,1018,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Batch Type,PolicyTransactions,BatchType,1019,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,TransactionType,PolicyTransactions,TransactionType,1020,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Inception Date,PolicyTransactions,InceptionDate,1021,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Expiry Date,PolicyTransactions,ExpiryDate,1022,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Effective Date,PolicyTransactions,EffectiveDate,1023,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Inception Date,PolicyTransactions,InceptionDate,1024,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyTransactions,Expiry Date,PolicyTransactions,ExpiryDate,1025,1,1,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyTransactions,Effective Date,PolicyTransactions,EffectiveDate,1026,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyTransactions,Inception Date,PolicyTransactions,InceptionDate,1027,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyTransactions,Expiry Date,PolicyTransactions,ExpiryDate,1028,1,1,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyTransactions,Effective Date,PolicyTransactions,EffectiveDate,1029,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PolicyTransactions,Risk Terminated Date,PolicyTransactions,RiskTerminatedDate,1030,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Base Premium,PolicyTransactions,BasePremium,1031,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Commission Amount,PolicyTransactions,CommissionAmount,1032,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Commission Rate,PolicyTransactions,CommissionRate,1033,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Insurance Premium Tax,PolicyTransactions,IPT,1034,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Agency Number,PolicyTransactions,AgencyNumber,1035,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Agency Number,PolicyTransactions,AgencyNumber,1036,0,3,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+PolicyTransactions,Agency Branch,PolicyTransactions,AgencyBranch,1037,1,1,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Occupation Code,PolicyTransactions,OccupationCode,1038,0,3,Completeness,null,null,null,null,null,I90,Policy
+PolicyTransactions,Form Type,PolicyTransactions,FormType,1039,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Policy Number,PremiumView,PolicyNumber,1040,1,1,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Policy Number,PremiumView,PolicyNumber,1041,1,1,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+PremiumView,Product Name,PremiumView,ProductName,1042,1,1,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Renewal Number,PremiumView,RenewalNumber,1043,1,1,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Inception Date,PremiumView,InceptionDate,1044,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Expiry Date,PremiumView,ExpiryDate,1045,1,1,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Inception Date,PremiumView,InceptionDate,1046,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PremiumView,Expiry Date,PremiumView,ExpiryDate,1047,1,1,Validity,null,null,['Format'],['YYYY MM DD'],null,I90,Policy
+PremiumView,Base Premium,PremiumView,BasePremium,1048,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Net Premium,PremiumView,NetPremium,1049,1,1,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Commission Amount,PremiumView,CommissionAmount,1050,1,1,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Commission Rate,PremiumView,CommissionRate,1051,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Insurance Premium Tax,PremiumView,IPT,1052,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Total Location Count,PremiumView,totalLocationCount,1053,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Agency Number,PremiumView,AgencyNumber,1054,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Agency Number,PremiumView,AgencyNumber,1055,0,3,Validity,null,null,['LEN(==)'],['7'],null,I90,Policy
+PremiumView,Agency Branch,PremiumView,AgencyBranch,1056,1,1,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Occupation Code,PremiumView,OccupationCode,1057,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Last Transaction Type,PremiumView,LastTransactionType,1058,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,Last Batch Type,PremiumView,LastBatchType,1059,0,3,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,New Renewal,PremiumView,NewRenewal,1060,1,1,Completeness,null,null,null,null,null,I90,Policy
+PremiumView,New Renewal,PremiumView,NewRenewal,1061,1,1,Validity,null,null,['in'],"[['new', 'renewal']]",null,I90,Policy
+daily_fact_calls,Queue,daily_fact_calls,queue,794,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Month,daily_fact_calls,month,795,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Queue Group Code,daily_fact_calls,queue_group_code,796,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Call Offered,daily_fact_calls,call_offered,797,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Call Handled,daily_fact_calls,call_handled,798,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Handled It 10sec,daily_fact_calls,calls_handled_lt_10sec,799,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Handled It 20sec,daily_fact_calls,calls_handled_lt_20sec,800,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Handled It 180sec,daily_fact_calls,calls_handled_lt_180sec,801,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Abandoned,daily_fact_calls,calls_abandoned,802,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Abandoned lt 10sec,daily_fact_calls,calls_abandoned_lt_10sec,803,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Abandoned lt 20sec,daily_fact_calls,calls_abandoned_lt_20sec,804,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Handled Wait Over 1min,daily_fact_calls,calls_handled_wait_over_1min,805,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Handled Wait Over 3min,daily_fact_calls,calls_handled_wait_over_3min,806,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Handled Wait Over 5min,daily_fact_calls,calls_handled_wait_over_5min,807,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Handled Wait Over 10min,daily_fact_calls,calls_handled_wait_over_10min,808,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Abandoned Over 10sec,daily_fact_calls,calls_abandoned_over_10sec,809,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Abandoned Over 20sec,daily_fact_calls,calls_abandoned_over_20sec,810,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Abandoned Over 180sec,daily_fact_calls,calls_abandoned_over_180sec,811,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Calls Abandoned Between 10sec 180,daily_fact_calls,calls_abandoned_between_10sec_180,812,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Longest Abandoned Time,daily_fact_calls,longest_abandoned_time,813,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Call Duration,daily_fact_calls,call_duration,814,1,1,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Hold Duration,daily_fact_calls,hold_duration,815,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Wrap Up Duration,daily_fact_calls,wrap_up_duration,816,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Ring Time,daily_fact_calls,ring_time,817,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Time Of Longest Abandoned,daily_fact_calls,time_of_longest_abandoned,818,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Time Of Longest Wait,daily_fact_calls,time_of_longest_wait,819,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Time Of Longest Abandoned,daily_fact_calls,time_of_longest_abandoned,820,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Storm,Claim
+daily_fact_calls,Time Of Longest Wait,daily_fact_calls,time_of_longest_wait,821,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Storm,Claim
+daily_fact_calls,Queue Time,daily_fact_calls,queue_time,822,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Call Received Date,daily_fact_calls,call_received_date,823,1,1,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Call Received Date,daily_fact_calls,call_received_date,824,1,1,Validity,null,null,['Format'],['YYYY MM DD T'],null,Storm,Claim
+daily_fact_calls,Longest Wait Time,daily_fact_calls,longest_wait_time,825,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Number Of Times Connected,daily_fact_calls,NumberofTimesConnected,826,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Call Type Code,daily_fact_calls,call_type_code,827,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Handler ID,daily_fact_calls,handler_id,828,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Insurance Type Description,daily_fact_calls,insurance_type_description,829,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Insurance Type ID,daily_fact_calls,insurance_type_id,830,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_fact_calls,Release Type Code,daily_fact_calls,release_type_code,831,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Local Agent,daily_aggregated_agent_statistics_calls,LocalAgent,832,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Call Date,daily_aggregated_agent_statistics_calls,call_date,833,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Call Date,daily_aggregated_agent_statistics_calls,call_date,834,1,3,Validity,null,null,['Format'],['YYYY MM DD'],null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Month,daily_aggregated_agent_statistics_calls,month,835,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Call Inbound,daily_aggregated_agent_statistics_calls,call_inbound,836,1,1,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Call Outbound,daily_aggregated_agent_statistics_calls,call_outbound,837,1,1,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Internal Calls Made,daily_aggregated_agent_statistics_calls,internal_calls_made,838,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Internal Calls Received,daily_aggregated_agent_statistics_calls,internal_calls_received,839,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Call Unknown,daily_aggregated_agent_statistics_calls,call_unknown,840,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Internal Calls Duration,daily_aggregated_agent_statistics_calls,internal_calls_duration,841,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Inbound AHT,daily_aggregated_agent_statistics_calls,inbound_AHT,842,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Outbound AHT,daily_aggregated_agent_statistics_calls,outbound_AHT,843,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_statistics_calls,Overall AHT,daily_aggregated_agent_statistics_calls,overall_AHT,844,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Agent,daily_aggregated_agent_productivity_call,Agent,845,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Raw Event Date,daily_aggregated_agent_productivity_call,raw_event_date,846,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,First Logged In,daily_aggregated_agent_productivity_call,first_logged_in,847,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,First Logged Off,daily_aggregated_agent_productivity_call,first_logged_off,848,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Raw Event Date,daily_aggregated_agent_productivity_call,raw_event_date,849,1,3,Validity,null,null,['Format'],['YYYY MM DD'],null,Storm,Claim
+daily_aggregated_agent_productivity_call,First Logged In,daily_aggregated_agent_productivity_call,first_logged_in,850,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Storm,Claim
+daily_aggregated_agent_productivity_call,First Logged Off,daily_aggregated_agent_productivity_call,first_logged_off,851,1,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Break Status,daily_aggregated_agent_productivity_call,duration_break_status,852,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Lunch Status,daily_aggregated_agent_productivity_call,duration_lunch_status,853,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Unavailable Status,daily_aggregated_agent_productivity_call,duration_unavailable_status,854,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Internal Only Status,daily_aggregated_agent_productivity_call,duration_internal_only_status,855,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Direct Only Status,daily_aggregated_agent_productivity_call,duration_direct_only_status,856,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Union Status,daily_aggregated_agent_productivity_call,duration_union_status,857,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Dta Not Ready Status,daily_aggregated_agent_productivity_call,duration_dta_not_ready_status,858,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Do Not Disturb Status,daily_aggregated_agent_productivity_call,duration_do_not_disturb_status,859,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Study Status,daily_aggregated_agent_productivity_call,duration_study_status,860,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration System Down Status,daily_aggregated_agent_productivity_call,duration_system_down_status,861,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Coaching Status,daily_aggregated_agent_productivity_call,duration_coaching_status,862,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Admin Status,daily_aggregated_agent_productivity_call,duration_admin_status,863,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Meeting Status,daily_aggregated_agent_productivity_call,duration_meeting_status,864,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Training Status,daily_aggregated_agent_productivity_call,duration_training_status,865,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration One To One Status,daily_aggregated_agent_productivity_call,duration_one_to_one_status,866,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Personal Needs Status,daily_aggregated_agent_productivity_call,duration_personal_needs_status,867,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Available Status,daily_aggregated_agent_productivity_call,duration_available_status,868,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Callsetup Status,daily_aggregated_agent_productivity_call,duration_callsetup_status,869,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Wrapup Status,daily_aggregated_agent_productivity_call,duration_wrapup_status,870,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Duration Holdtime Status,daily_aggregated_agent_productivity_call,duration_holdtime_status,871,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Inbound Talktime Duration,daily_aggregated_agent_productivity_call,inbound_talktime_duration,872,0,3,Completeness,null,null,null,null,null,Storm,Claim
+daily_aggregated_agent_productivity_call,Total Talk,daily_aggregated_agent_productivity_call,total_talk,873,0,3,Completeness,null,null,null,null,null,Storm,Claim
+opex_huddle_galileo_general,Last Working Day,opex_huddle_galileo_general,Last_Working_Day,1198,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Today,opex_huddle_galileo_general,Today,1199,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Policy Number,opex_huddle_galileo_general,Policy_No,1200,1,1,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Case Reference Number,opex_huddle_galileo_general,Case_Ref_No,1201,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Case Start Date,opex_huddle_galileo_general,Case_Received_Date,1202,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Agency Name,opex_huddle_galileo_general,Agency_Name,1203,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Agency Number,opex_huddle_galileo_general,Agency_Number,1204,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Queue,opex_huddle_galileo_general,Queue,1205,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Product,opex_huddle_galileo_general,Product,1206,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Product Label,opex_huddle_galileo_general,Product_Label,1207,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Category,opex_huddle_galileo_general,Category,1208,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Category Label,opex_huddle_galileo_general,Category_Label,1209,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Case Status,opex_huddle_galileo_general,Case_Status,1210,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Idx Policy Holder Name,opex_huddle_galileo_general,Policy_Holder,1211,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Idx Policy Renewal Date,opex_huddle_galileo_general,Renewal_Date,1212,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Broker Due Date,opex_huddle_galileo_general,Broker_Due_Date,1213,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Target Premium,opex_huddle_galileo_general,Target_Premium,1214,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Case Assignee,opex_huddle_galileo_general,Case_Assignee,1215,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Assignee Name,opex_huddle_galileo_general,Assignee_Name,1216,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Account Manager,opex_huddle_galileo_general,Account_Manager,1217,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Fact Find,opex_huddle_galileo_general,Fact_Find,1218,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Unread Interaction Count,opex_huddle_galileo_general,Unread_Email_Count,1219,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Team Code,opex_huddle_galileo_general,Assignee_Team_Code,1220,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Assignee Team,opex_huddle_galileo_general,Assignee_Team,1221,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Assignee Branch,opex_huddle_galileo_general,Assignee_Branch,1222,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Last Modified Date Time,opex_huddle_galileo_general,Last_Modified_Date_Time,1223,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Customer_Control,opex_huddle_galileo_general,Customer_Control,1224,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Record Plus 2,opex_huddle_galileo_general,RecdPlus2,1225,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Record Plus 5,opex_huddle_galileo_general,RecdPlus5,1226,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Quote Reference,opex_huddle_galileo_general,Quote_Ref,1227,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,New Insl,opex_huddle_galileo_general,NEW_INSL,1228,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,New Outsl,opex_huddle_galileo_general,NEW_OUTSL,1229,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,WIP Insl,opex_huddle_galileo_general,WIP_INSL,1230,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,WIP Outsl,opex_huddle_galileo_general,WIP_OUTSL,1231,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Wip Record Date,opex_huddle_galileo_general,WIP_RecdDate,1232,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Control MTA Overdue,opex_huddle_galileo_general,Control_MTA_Overdue,1233,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Control MTA Within 14,opex_huddle_galileo_general,Control_MTA_Within14,1234,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Group,opex_huddle_galileo_general,Group,1235,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Status Label,opex_huddle_galileo_general,Status_Label,1236,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Subs,opex_huddle_galileo_general,Subs,1237,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Last Complete Date,opex_huddle_galileo_general,Last_Complete_Date,1238,0,3,Completeness,null,['Status_Label'],['=='],['complete'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Target Premium,opex_huddle_galileo_general,Total_Premium,1239,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Report Branch,opex_huddle_galileo_general,Report_Branch,1240,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Product Group,opex_huddle_galileo_general,Product_Group,1241,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+productivity_os_galileo,Branch,productivity_os_galileo,Branch,1242,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+productivity_os_galileo,Run Date,productivity_os_galileo,Run_Date,1243,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+productivity_os_galileo,Product Label,productivity_os_galileo,Product_Label,1244,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+productivity_os_galileo,Category Label,productivity_os_galileo,Category_Label,1245,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+productivity_os_galileo,Customer Control,productivity_os_galileo,Customer_Control,1246,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+productivity_os_galileo,Volume,productivity_os_galileo,vol,1247,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+productivity_os_galileo,Product Group,productivity_os_galileo,Product_Group,1248,0,3,Completeness,null,null,null,null,null,LegacyMigration,Policy
+opex_huddle_galileo_general,Last Working Day,opex_huddle_galileo_general,Last_Working_Day,1249,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Today,opex_huddle_galileo_general,Today,1250,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Policy Number,opex_huddle_galileo_general,Policy_No,1251,1,1,Validity,null,null,['LEN(==)'],['7'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Case Reference Number,opex_huddle_galileo_general,Case_Ref_No,1252,0,3,Validity,null,null,['LEN(==)'],['9'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Agency Number,opex_huddle_galileo_general,Agency_Number,1253,0,3,Validity,null,null,['LEN(==)'],['7'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Policy Renewal Date,opex_huddle_galileo_general,Renewal_Date,1254,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Broker Due Date,opex_huddle_galileo_general,Broker_Due_Date,1255,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Last Modified Date Time,opex_huddle_galileo_general,Last_Modified_Date_Time,1256,0,3,Validity,null,null,['Format'],['YYYY MM DD T'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Customer Control,opex_huddle_galileo_general,Customer_Control,1257,0,3,Validity,null,null,['in'],"[['customer', 'control']]",null,LegacyMigration,Policy
+opex_huddle_galileo_general,Record Plus 2,opex_huddle_galileo_general,RecdPlus2,1258,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Record Plus 5,opex_huddle_galileo_general,RecdPlus5,1259,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,LegacyMigration,Policy
+opex_huddle_galileo_general,Group,opex_huddle_galileo_general,Group,1260,0,3,Validity,null,null,['in'],"[['wip', 'new', 'exc']]",null,LegacyMigration,Policy
+opex_huddle_galileo_general,Status Label,opex_huddle_galileo_general,Status_Label,1261,0,3,Validity,null,null,['in'],"[['unindexed', 'complete', 'terms given', 'in progress', 'new info received', 'reassigned', 'sub task complete', 'new', 'awaiting info', 'referred']]",null,LegacyMigration,Policy
+opex_huddle_galileo_general,Last Complete Date,opex_huddle_galileo_general,Last_Complete_Date,1262,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,LegacyMigration,Policy
+productivity_os_galileo,Run Date,productivity_os_galileo,Run_Date,1263,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,LegacyMigration,Policy
+productivity_os_galileo,Customer Control,productivity_os_galileo,Customer_Control,1264,0,3,Validity,null,null,['in'],"[['customer', 'control']]",null,LegacyMigration,Policy
+productivity_os_galileo,Product Group,productivity_os_galileo,Product_Group,1265,0,3,Validity,null,null,['in'],"[['fleet', 'unknown', 'package', 'pandc', 'motor trade', 'cpi']]",null,LegacyMigration,Policy
+SandpiperPolicyMain,CRAW Unique Identifier,SandpiperPolicyMain,craw_uniqueid,1266,1,1,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Policy General Policy Number,SandpiperPolicyMain,PolicyGeneralPolicyNumber ,1267,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,CRAW Unique Identifier,SandpiperPolicyMain,craw_uniqueid,1268,1,1,Uniqueness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Policy General Policy Number,SandpiperPolicyMain,PolicyGeneralPolicyNumber ,1269,0,3,Validity,null,null,['LEN(==)'],['9'],null,Sandpiper,Policy
+SandpiperPolicyMain,Product Identifier,SandpiperPolicyMain,ProductId ,1270,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Policy General Initial Start Date,SandpiperPolicyMain,PolicyGeneralInitialStartDate,1271,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Expiry Date,SandpiperPolicyMain,expiry_date,1272,1,1,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Cancellation Effective Date Time,SandpiperPolicyMain,CancellationEffectiveDateTime,1273,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Policy General Initial Start Date,SandpiperPolicyMain,PolicyGeneralInitialStartDate,1274,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,Sandpiper,Policy
+SandpiperPolicyMain,Expiry Date,SandpiperPolicyMain,expiry_date,1275,1,1,Validity,null,null,['Format'],['YYYY MM DD'],null,Sandpiper,Policy
+SandpiperPolicyMain,Cancellation Effective Date Time,SandpiperPolicyMain,CancellationEffectiveDateTime,1276,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,Sandpiper,Policy
+SandpiperPolicyMain,Policy Version Status Identifier,SandpiperPolicyMain,PolicyVersionStatusId,1277,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Premium Total,SandpiperPolicyMain,PremiumTotal,1278,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Header Brand Identifier,SandpiperPolicyMain,header_BrandId,1279,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Policy General Source Identifier,SandpiperPolicyMain,PolicyGeneralSourceId,1280,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Portal Identifier,SandpiperPolicyMain,PortalId,1281,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Payment Method,SandpiperPolicyMain,PaymentMethod,1282,1,1,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Company Name,SandpiperPolicyMain,CompanyName,1283,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Policy Holder First Name,SandpiperPolicyMain,PolicyHolderFirstname,1284,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Policy Holder Last Name,SandpiperPolicyMain,PolicyHolderLastname,1285,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Policy Holder Zip Code,SandpiperPolicyMain,PolicyHolderZipCode,1286,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Renewal Date,SandpiperPolicyMain,RenewalDate,1287,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Policy Holder Zip Code,SandpiperPolicyMain,PolicyHolderZipCode,1288,0,3,Validity,null,null,['Format'],"['^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})']",null,Sandpiper,Policy
+SandpiperPolicyMain,Renewal Date,SandpiperPolicyMain,RenewalDate,1289,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,Sandpiper,Policy
+SandpiperPolicyMain,Policy Holder Name,SandpiperPolicyMain,PolicyHolderName,1290,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Status,SandpiperPolicyMain,Status,1291,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Date Filter Start Date,SandpiperPolicyMain,date_filter_Startdate,1292,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Status,SandpiperPolicyMain,Status,1293,0,3,Validity,null,null,['in'],"[['active', 'inactive']]",null,Sandpiper,Policy
+SandpiperPolicyMain,Date Filter Start Date,SandpiperPolicyMain,date_filter_Startdate,1294,0,3,Validity,null,null,['Format'],['YYYY MM DD'],null,Sandpiper,Policy
+SandpiperPolicyMain,Net Premium,SandpiperPolicyMain,NetPremium,1295,1,1,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Insurance Premium Tax,SandpiperPolicyMain,IPT,1296,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Sub Status,SandpiperPolicyMain,SubStatus,1297,0,3,Completeness,null,null,null,null,null,Sandpiper,Policy
+SandpiperPolicyMain,Sub Status,SandpiperPolicyMain,SubStatus,1298,0,3,Validity,null,null,['in'],"[['active', 'cancelled', 'cancelled from inception']]",null,Sandpiper,Policy
+GenericBV,Branch,GenericBV,branch,1368,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Business Area,GenericBV,business_area,1369,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Business Channel,GenericBV,business_channel,1370,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Business Line,GenericBV,business_line,1371,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Claim Number,GenericBV,claim_number,1372,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,CLM CMPL,GenericBV,clm_cmpl,1373,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Combined Adj OMB Decisions Date,GenericBV,combined_adj_omb_decisions_date,1374,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Complaint Forwarded,GenericBV,complaint_forwarded,1375,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Days Open,GenericBV,days_open,1376,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Dissatisfaction Complaint Type,GenericBV,dissatisfaction_complaint_type,1377,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Erroneous Record,GenericBV,erroneous_record,1378,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Escalated To Ombudsman,GenericBV,escalated_to_ombudsman,1379,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Feedback Type,GenericBV,feedback_type,1380,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,File Request Date,GenericBV,file_request_date,1381,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,File Status,GenericBV,file_status,1382,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Forwarded Full Complaint Or Part Complaint,GenericBV,forwarded_fullcomplaintorpart_complaint,1383,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Fos Eligible,GenericBV,fos_eligible,1384,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Fos End Date,GenericBV,fos_end_date,1385,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Fos Reference,GenericBV,fos_reference,1386,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Fos Start Date,GenericBV,fos_start_date,1387,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,How Received,GenericBV,how_received,1388,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Incident Code,GenericBV,incident_code,1389,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Last Ref,GenericBV,last_ref,1390,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Logged By,GenericBV,logged_by,1391,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Logged Date,GenericBV,logged_date,1392,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Logged,GenericBV,logged,1393,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Matched,GenericBV,matched,1394,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Matched Key,GenericBV,matched_key,1395,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Metadata Match,GenericBV,metadata_match,1396,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Overall Outcome,GenericBV,overall_outcome,1397,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Overdue,GenericBV,overdue,1398,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Peril,GenericBV,peril,1399,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Policy Type,GenericBV,policy_type,1400,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Product Activity,GenericBV,product_activity,1401,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Product,GenericBV,product,1402,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Reasonable Adjustment Flag,GenericBV,reasonable_adjustment_flag,1403,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Receipt Date,GenericBV,receipt_date,1404,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Reference Number,GenericBV,reference_number,1405,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Re Open Date,GenericBV,re_open_date,1406,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Resolved By,GenericBV,resolved_by,1407,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Resolved Date,GenericBV,resolved_date,1408,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Root Cause,GenericBV,root_cause,1409,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Status,GenericBV,status,1410,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Team Responsible,GenericBV,team_responsible,1411,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Type,GenericBV,type,1412,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Upheld,GenericBV,upheld,1413,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Agency Number,GenericBV,agency_number,1414,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Business Area Sub Category,GenericBV,business_area_sub_category,1415,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Channel,GenericBV,channel,1416,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Claim Loss Date,GenericBV,claim_loss_date,1417,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Current Stage,GenericBV,current_stage,1423,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Policy Number,GenericBV,f_policynumber,1424,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Last Modified Time,GenericBV,fldLastModifiedTime,1425,0,3,Completeness,null,null,null,null,null,Respond,Claim
+GenericBV,Product Area Complaints,GenericBV,product_area_complaints,1426,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Agency Number,UniqueComplaint,agency_number,1428,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Branch,UniqueComplaint,branch,1429,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Business Channel,UniqueComplaint,business_channel,1430,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Business Line,UniqueComplaint,business_line,1431,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Business Segment,UniqueComplaint,business_segment,1432,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Claim Number,UniqueComplaint,claim_number,1433,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Complaint Number,UniqueComplaint,complaint_number,1434,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Complaints Outside Of Regulatory Timeline,UniqueComplaint,complaints_outside_of_regulatory_timeline,1435,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Escalated To Ombudsman,UniqueComplaint,escalated_to_ombudsman,1436,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Feedback Type,UniqueComplaint,feedback_type,1437,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,File Status,UniqueComplaint,file_status,1438,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Fos End Date,UniqueComplaint,fos_end_date,1439,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Fos Reference,UniqueComplaint,fos_reference,1440,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Fos Start Date,UniqueComplaint,fos_start_date,1441,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Logged Date,UniqueComplaint,logged_date,1442,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Overall Outcome,UniqueComplaint,overall_outcome,1443,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Policy Number,UniqueComplaint,policy_number,1444,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Product,UniqueComplaint,product,1445,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Received Date,UniqueComplaint,received_date,1446,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Resolved Date,UniqueComplaint,resolved_date,1447,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Status,UniqueComplaint,status,1448,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Team,UniqueComplaint,team,1449,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Type,UniqueComplaint,type,1450,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Upheld,UniqueComplaint,upheld,1451,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Business Area Sub Category,UniqueComplaint,business_area_sub_category,1452,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Channel,UniqueComplaint,channel,1453,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Claim Loss Date,UniqueComplaint,claim_loss_date,1454,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Current Stage,UniqueComplaint,current_stage,1460,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Days Open,UniqueComplaint,days_open,1461,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Dissatisfaction Complaint Type,UniqueComplaint,dissatisfaction_complaint_type,1462,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Erroneous Record,UniqueComplaint,erroneous_record,1463,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,File Request Date,UniqueComplaint,file_request_date,1464,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Product Area Complaints,UniqueComplaint,product_area_complaints,1465,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Re Open Date,UniqueComplaint,re_open_date,1466,0,3,Completeness,null,null,null,null,null,Respond,Claim
+UniqueComplaint,Reasonable Adjustment Flag,UniqueComplaint,reasonable_adjustment_flag,1467,0,3,Completeness,null,null,null,null,null,Respond,Claim
